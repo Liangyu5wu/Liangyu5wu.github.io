@@ -31,18 +31,18 @@ profiles:
   - icon: at-symbol
     url: 'mailto:liangyu5@stanford.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/Liangyu5wu
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/liangyu-wu-aa84b6327/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
   - icon: academicons/orcid
     url: https://orcid.org/0009-0003-2402-0735
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
+  - icon: brands/instagram
+    url: https://www.instagram.com/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
 
 interests:
   - Artificial Intelligence
