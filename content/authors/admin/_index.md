@@ -125,11 +125,11 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Basketball
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: NBA 2K Games
         description: ''
         percent: 100
         icon: cat
