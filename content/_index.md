@@ -35,7 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research interests primarily focus on experimental high-energy physics and some astro-particle physics.😃
+        My research interests primarily focus on experimental high-energy physics and some astro-particle physics.
+
+        Please reach out to collaborate 😃
 
     
     design:
