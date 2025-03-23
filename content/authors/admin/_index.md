@@ -49,10 +49,10 @@ interests:
   - Future colliders
 
 education:
-  - area: PhD Artificial Intelligence
+  - area: Ph.D. in Physics (in progress)
     institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2024-09-23
+    date_end: 2029-09-23
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
