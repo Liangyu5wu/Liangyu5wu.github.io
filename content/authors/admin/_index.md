@@ -3,7 +3,7 @@
 title: Liangyu Wu
 
 # Name pronunciation (optional)
-# name_pronunciation: Liangyu Wu
+#name_pronunciation: Liangyu Wu
 
 # Full name (for SEO)
 first_name: Liangyu
