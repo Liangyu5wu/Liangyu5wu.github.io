@@ -37,11 +37,11 @@ profiles:
     url: https://www.linkedin.com/in/liangyu-wu-aa84b6327/
   - icon: academicons/orcid
     url: https://orcid.org/0009-0003-2402-0735
-  - icon: brands/x
+#  - icon: brands/x
     url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
+#  - icon: brands/instagram
     url: https://www.instagram.com/
-  - icon: academicons/google-scholar
+#  - icon: academicons/google-scholar
     url: https://scholar.google.com/
 
 interests:
