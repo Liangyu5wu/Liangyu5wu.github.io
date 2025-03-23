@@ -180,4 +180,4 @@ awards:
 
 ## About Me
 
-I am currently a first-year Ph.D. student in the <a href="https://physics.stanford.edu/" style="color: #ffcc00;">Stanford University, Physics Department</a>. My research interests are in experimental high-energy physics and some astro-particle physics. But I also really enjoy talking to researchers in different directions about what they're doing.
+I am currently a first-year Ph.D. student in the <a href="https://physics.stanford.edu/">Stanford University, Physics Department</a>. My research interests are in experimental high-energy physics and some astro-particle physics. But I also really enjoy talking to researchers in different directions about what they're doing.
