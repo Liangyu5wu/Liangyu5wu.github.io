@@ -180,4 +180,4 @@ awards:
 
 ## About Me
 
-I am currently a first-year Ph.D. student in the <a href="https://physics.stanford.edu/">Stanford University, Physics Department</a>. My research interests are in experimental high-energy physics and some astro-particle physics. But I also really enjoy talking to researchers in different directions about what they're doing.
+My name is Liangyu Wu (吴粮宇, pronounced as "Lee-ahng-yu Woo"). I am currently a first-year Ph.D. student in the <a href="https://physics.stanford.edu/">Stanford University Physics Department</a>. My research interests primarily focus on experimental high-energy physics and some astro-particle physics. But I also really enjoy talking to researchers in different directions about what they're doing. Currently, I am a rotation student working at SLAC National Accelerator Laboratory's <a href="https://atlas.slac.stanford.edu">SLAC ATLAS group</a>. Hope to settle down soon!
