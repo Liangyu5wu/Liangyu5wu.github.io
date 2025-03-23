@@ -38,11 +38,11 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0009-0003-2402-0735
 #  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+#    url: https://twitter.com/GetResearchDev
 #  - icon: brands/instagram
-    url: https://www.instagram.com/
+#    url: https://www.instagram.com/
 #  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+#    url: https://scholar.google.com/
 
 interests:
   - Experimental high-energy physics
@@ -144,7 +144,7 @@ languages:
   - name: English
     percent: 70
 #  - name: Portuguese
-    percent: 25
+#    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
