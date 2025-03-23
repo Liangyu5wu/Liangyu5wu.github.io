@@ -45,9 +45,8 @@ profiles:
     url: https://scholar.google.com/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Experimental high-energy physics
+  - Future colliders
 
 education:
   - area: PhD Artificial Intelligence
