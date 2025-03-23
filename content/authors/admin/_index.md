@@ -19,13 +19,11 @@ superuser: true
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
-# Role/position/tagline
 role: Ph.D. Student in Physics
 
-# Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Stanford
-    url: https://openai.com/
+  - name: Stanford University, Physics Department
+    url: https://physics.stanford.edu
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
