@@ -7,7 +7,7 @@ math: false
 tags:
   - Teaching
 image:
-  caption: ''
+  caption: 'Electricity and Magnetism'
 ---
 
 This class is the second course in a calculus-based, introductory physics sequence for scientists and engineers (Phys 40 series) focused on classical electromagnetism (E&M).
