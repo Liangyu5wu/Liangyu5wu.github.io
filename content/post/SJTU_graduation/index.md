@@ -1,12 +1,12 @@
 ---
-title: 🎉 Graduate 
+title: 🎉 SJTU Undergrad Complete!
 summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
 date: 2024-06-30
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Done with My SJTU Journey'
 
 authors:
   - admin
