@@ -22,8 +22,12 @@ The following 14 minutes video may give you some senses of how an electromagneti
 
 {{< spoiler text="👉 Click to view the breakdown" >}} 
 2 Lectures per week
+
 2 Discussion Sessions per week
+
 1 TA Meeting per week
+
 3 hrs GSH per week
+
 Grading
 {{< /spoiler >}}
