@@ -133,7 +133,7 @@ skills:
     items:
       - name: Basketball
         description: ''
-        percent: 60
+        percent: 100
         icon: basketball
       - name: NBA 2K Games
         description: ''
