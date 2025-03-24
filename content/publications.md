@@ -11,6 +11,7 @@ design:
 # Page sections
 sections:
   - block: collection
+    demo: true
     content:
       title: Publications
       text: ""
