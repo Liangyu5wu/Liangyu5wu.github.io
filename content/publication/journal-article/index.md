@@ -55,7 +55,7 @@ url_video: ''
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: 'Correlation between calibrated scintillation yield and Cherenkov yield for a 40L-PFQ calorimeter'
-  focal_point: ""
+  focal_point: "Smart"
   preview_only: false
 
 # Associated Projects (optional).
