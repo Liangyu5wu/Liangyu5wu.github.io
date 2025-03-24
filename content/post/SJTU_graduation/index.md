@@ -1,6 +1,6 @@
 ---
 title: 🎉 SJTU Undergrad Complete!
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
+summary: Graduated with Shanghai Outstanding Graduate honors and A+ thesis defense
 date: 2024-06-30
 
 # Featured image
