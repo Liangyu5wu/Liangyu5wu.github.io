@@ -1,6 +1,6 @@
 ---
 title: Physics 43: Electricity and Magnetism
-summary: Instructor: Paul Bergeron
+summary: Paul Bergeron (Instructor)
 date: 2025-04-01
 type: docs
 math: false
