@@ -11,17 +11,6 @@ design:
 # Page sections
 sections:
   - block: collection
-    demo: true
-    content:
-      title: Talks
-      text: ""
-      filters:
-        folders:
-          - event
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
     content:
       title: Talks
       subtitle: ''
