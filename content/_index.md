@@ -32,7 +32,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: 'My Research'
+      title: '⚛️ My Research'
       subtitle: ''
       text: |-
         My research interests primarily focus on experimental high-energy physics and astro-particle physics. Currently, I'm still a rotation student, but my main research focus for the past few quarters has been R&D for detectors in future colliders, such as Geant4 simulations of dual-readout calorimeters and front-end ML-based readout systems.
@@ -41,7 +41,7 @@ sections:
 
     
     design:
-      columns: '1'
+      columns: '2'
   - block: collection
     id: papers
     content:
