@@ -1,13 +1,13 @@
 ---
-title: Learn JavaScript
-summary: Easily learn JavaScript in 10 minutes!
-date: 2023-10-24
+title: Physics 43: Electricity and Magnetism
+summary: Instructor: Paul Bergeron
+date: 2025-04-01
 type: docs
 math: false
 tags:
-  - JavaScript
+  - Teaching
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: ''
 ---
 
 [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
