@@ -45,8 +45,8 @@ profiles:
 #    url: https://scholar.google.com/
 
 interests:
-  - Experimental high-energy physics
-  - Future colliders
+  - Experimental High-energy Physics
+  - Future Colliders
 
 education:
   - area: Ph.D. in Physics (in progress)
