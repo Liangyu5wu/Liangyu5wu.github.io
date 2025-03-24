@@ -20,8 +20,4 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: resume-languages
-    content:
-      title: Languages
-      username: admin
 ---
