@@ -28,9 +28,9 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: https://arxiv.org/abs/2410.06054
+- name: Link
+  url: https://arxiv.org/abs/2410.06054
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
