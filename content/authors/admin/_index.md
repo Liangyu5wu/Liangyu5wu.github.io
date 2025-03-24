@@ -126,7 +126,7 @@ skills:
       - name: CERN ROOT
         description: ''
         percent: 40
-        icon: code
+        icon: chart-bar
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
