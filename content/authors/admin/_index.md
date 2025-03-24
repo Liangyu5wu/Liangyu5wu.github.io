@@ -54,10 +54,10 @@ education:
     date_start: 2024-09-23
     date_end: 2029-09-23
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Currently supervised by [Prof. Dong Su](https://profiles.stanford.edu/dong-su) & [Prof. Ariel Schwartzman](https://profiles.stanford.edu/ariel-schwartzman)
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      text: 'Stanford Profile'
+      url: 'https://profiles.stanford.edu/liangyu-wu'
   - area: MEng Artificial Intelligence
     institution: Massachusetts Institute of Technology
     date_start: 2016-01-01
