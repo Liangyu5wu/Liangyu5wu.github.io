@@ -134,7 +134,7 @@ skills:
       - name: Basketball
         description: ''
         percent: 100
-        icon: hero/user-group
+        icon: "custom/basketball"
       - name: NBA 2K Games
         description: ''
         percent: 100
