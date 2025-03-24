@@ -118,15 +118,15 @@ skills:
       - name: Python
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        icon: python
+      - name: C++
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: SQL
+        icon: code-bracket
+      - name: CERN ROOT
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: code
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
