@@ -122,11 +122,11 @@ skills:
       - name: C++
         description: ''
         percent: 100
-        icon: code-bracket
+        icon: cplusplus
       - name: CERN ROOT
         description: ''
         percent: 40
-        icon: chart-bar
+        icon: code-bracket
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
