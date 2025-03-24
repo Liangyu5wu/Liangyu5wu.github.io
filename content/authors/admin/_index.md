@@ -87,28 +87,27 @@ education:
       
 
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Research Assistant
+    company_name: SLAC National Accelerator Laboratory
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-09-30
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      Research on:
+      - On-chip machine learning for waveform analysis and data compression in dual readout calorimeters
+      - GigaBit Cable Receiver (GBCR) ASIC Testing
+      - Update to the FACET-II TCAV GUI and analysis tools
+  - position: Undergraduate Research Student
+    company_name: University of Maryland, College Park
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-08-30
+    date_end: 2024-08-30
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Research on:
+      - Performed Geant4 simulations of single-particle responses for diverse calorimeters
+      - Derived a formula that predicts the dual-readout-corrected energy from scintillator and Cherenkov signals alone
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
