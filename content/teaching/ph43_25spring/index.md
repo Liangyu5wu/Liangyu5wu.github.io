@@ -1,11 +1,11 @@
 ---
-title: Physics 43 Electricity and Magnetism
-summary: 2025 Spring TA
+title: Physics 43 - Electricity and Magnetism
+summary: 2025 Spring Quarter TA
 date: 2025-03-23
 type: docs
 math: false
 tags:
-  - Python
+  - Teaching
 image:
   caption: 'Electricity and Magnetism'
 ---
