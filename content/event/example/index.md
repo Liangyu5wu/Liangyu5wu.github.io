@@ -27,7 +27,8 @@ publishDate: '2025-03-24T11:18:00Z'
 authors:
   - admin
 
-tags: []
+tags:
+- LHC Upgrade
 
 # Is this a featured talk? (true/false)
 featured: true
