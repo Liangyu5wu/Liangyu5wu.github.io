@@ -136,5 +136,3 @@ data.head()
 renders as
 
 {{< icon name="python" >}} Python
-
-## Did you find this page helpful? Consider sharing it 🙌
