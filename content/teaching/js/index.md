@@ -1,13 +1,13 @@
 ---
-title: Learn J
-summary: Easily learn JavaScript in 10 minutes!
-date: 2023-10-24
+title: Physics 43 Electricity and Magnetism
+summary: 2025 Spring TA
+date: 2025-04-01
 type: docs
 math: false
 tags:
-  - JavaScript
+  - Python
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: 'Electricity and Magnetism'
 ---
 
 [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
