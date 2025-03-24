@@ -36,7 +36,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Liangyu Wu  Hunting in the Invisible World"
+      text: "Liangyu Wu - Hunting in the Invisible World"
     button:
       enable: true
       text: "Find Me in the INSPIRE"
