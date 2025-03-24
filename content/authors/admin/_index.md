@@ -54,7 +54,7 @@ education:
     date_start: 2024-09-23
     date_end: 2029-09-23
     summary: |
-      Currently supervised by [Prof. Dong Su](https://profiles.stanford.edu/dong-su) & [Prof. Ariel Schwartzman](https://profiles.stanford.edu/ariel-schwartzman)
+      Currently supervised by [Prof. Dong Su](https://profiles.stanford.edu/dong-su) & [Prof. Ariel Schwartzman](https://profiles.stanford.edu/ariel-schwartzman).
     button:
       text: 'Stanford Profile'
       url: 'https://profiles.stanford.edu/liangyu-wu'
