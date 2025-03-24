@@ -134,15 +134,15 @@ skills:
       - name: Basketball
         description: ''
         percent: 100
-        icon: basketball
+        icon: 🏀
       - name: NBA 2K Games
         description: ''
         percent: 100
-        icon: game-controller
+        icon: 🎮
       - name: Music
         description: ''
         percent: 80
-        icon: music-note
+        icon: 🎵
 
 languages:
   - name: Chinese
