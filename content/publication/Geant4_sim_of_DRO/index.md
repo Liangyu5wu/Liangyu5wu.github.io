@@ -73,4 +73,4 @@ projects: []
 slides: ""
 ---
 
-In this paper we report the results of the GEANT4 simulation of optical photons created as the results of collisions with single particles with the energy 1 – 40 GeV. For the first time, the simulations were performed for the traditional HCAL tower considered for the ILC, CLIC, CLD and similar experiments, **but after adding additional active layers to collect Cherenkov signals**.
+In this paper we report the results of the GEANT4 simulation of optical photons created as the results of collisions with single particles with the energy 1 – 40 GeV. For the first time, the simulations were performed for the traditional HCAL tower considered for the ILC, CLIC, CLD and similar experiments, but after **adding additional active layers to collect Cherenkov signals**.
