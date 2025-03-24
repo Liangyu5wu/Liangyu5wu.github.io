@@ -94,6 +94,15 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+      background:
+        color: black
+        image:
+          filename: universe_pic_3.jpg
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: false
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
