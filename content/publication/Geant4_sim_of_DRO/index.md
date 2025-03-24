@@ -39,10 +39,10 @@ tags:
 - Detector R&D
 featured: true
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: https://www.sciencedirect.com/science/article/pii/S0168900225000014?via%3Dihub
+links:
+- name: Link
+  url: https://www.sciencedirect.com/science/article/pii/S0168900225000014?via%3Dihub
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
