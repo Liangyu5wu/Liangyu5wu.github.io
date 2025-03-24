@@ -70,17 +70,16 @@ education:
       - PHYS165 Introduction to Programming in the Physical Sciences, Instructor: [Prof. Gregory Sullivan](https://umdphysics.umd.edu/people/faculty/current/item/516-gws.html)
       - PHYS457 Introduction to Quantum Computing, Instructor: [Prof. Xiaodi Wu](https://www.cs.umd.edu/~xwu/)
       - PHYS499A Special Problems in Physics, Supervised by [Prof. Sarah Eno](https://umdphysics.umd.edu/people/faculty/current/item/149-eno.html) & [Prof. Christopher Palmer](https://umdphysics.umd.edu/people/faculty/current/item/1751-capalmer.html)
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BSc in Physics
+    institution: Shanghai Jiao Tong University
+    date_start: 2020-09-14
+    date_end: 2024-06-30
     summary: |
-      GPA: 3.4/4.0
+      GPA: 86.1/100. Supervised by [Prof. Yue Meng](https://www.physics.sjtu.edu.cn/en/jsml/mengyue.html)
+
+      Dissertation: CONTROL OF RADON AND RADON DAUGHTERS IN RARE DECAY EXPERIMENTS
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
