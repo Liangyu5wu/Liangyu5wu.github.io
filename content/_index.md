@@ -37,7 +37,7 @@ sections:
       text: |-
         My research interests primarily focus on experimental high-energy physics and astro-particle physics. Currently, I'm still a rotation student, but my main research focus for the past few quarters has been R&D for detectors in future colliders, such as Geant4 simulations of dual-readout calorimeters and front-end ML-based readout systems.
 
-        Recently, I've begun working on research related to 5D calorimetry.
+        Recently, I've begun working on the development of 5D calorimetry, which will incorporate time information (x,y,z,t,E) to foster LHC discovery potential.
 
     
     design:
