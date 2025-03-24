@@ -48,7 +48,7 @@ Try it out:
 
 ## Test students
 
-Provide a simple yet fun self-assessment by revealing the solutions to challenges with the `spoiler` shortcode:
+Provide a fun self-assessment by revealing the solutions to challenges with the `spoiler` shortcode:
 
 ```markdown
 {{</* spoiler text="👉 Click to view the solution" */>}}
