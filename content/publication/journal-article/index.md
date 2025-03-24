@@ -12,10 +12,10 @@ author_notes:
 - "Equal contribution"
 - "Equal contribution"
 date: "2025-01-06T00:00:00Z"
-doi: "10.1016/j.nima.2025.170200"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-01-10T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -69,12 +69,9 @@ projects: []
 slides: example
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+# {{% callout note %}}
+# Create your slides in Markdown - click the *Slides* button to check out the example.
+# {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+In this paper we report the results of the GEANT4 simulation of optical photons created as the results of collisions with single particles with the energy 1 – 40 GeV. For the first time, the simulations were performed for the traditional HCAL tower considered for the ILC, CLIC, CLD and similar experiments, **but after adding additional active layers to collect Cherenkov signals**.
