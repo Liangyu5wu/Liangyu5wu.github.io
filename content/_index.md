@@ -99,7 +99,7 @@ sections:
         image:
           filename: universe_pic_3.jpg
           filters:
-            brightness: 1.0
+            brightness: 0.9
           size: cover
           position: center
           parallax: false
