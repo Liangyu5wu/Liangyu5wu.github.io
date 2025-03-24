@@ -4,7 +4,7 @@ date: 2025-03-23
 type: landing
 
 design:
-  spacing: '10rem'
+  spacing: '5rem'
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
@@ -46,7 +46,4 @@ sections:
     design:
       # Choose a layout view
       view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
 ---
