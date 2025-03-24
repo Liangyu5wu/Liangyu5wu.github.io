@@ -5,7 +5,7 @@ date: 2025-04-01
 type: docs
 math: false
 tags:
-  - Teaching
+  - Python
 image:
   caption: 'Electricity and Magnetism'
 ---
