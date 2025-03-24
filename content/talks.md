@@ -1,27 +1,49 @@
 ---
 title: 'Talks'
-date: 2023-10-24
+date: 2025-03-23
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: '6rem'
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
 # Page sections
 sections:
-  - block: resume-experience
+  - block: collection
+    demo: true
     content:
-      username: admin
+      title: Talks
+      text: ""
+      filters:
+        folders:
+          - event
+        exclude_featured: false
     design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
-  - block: resume-skills
+      view: citation
+  - block: collection
     content:
-      title: Skills & Hobbies
-      username: admin
+      title: Talks
+      subtitle: ''
+      text: ''
+      # Page type to display. E.g. post, talk, publication...
+      page_type: talk
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 0
+      # Filter on criteria
+      filters:
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
     design:
-      show_skill_percentage: false
+      # Choose a layout view
+      view: date-title-summary
 ---
