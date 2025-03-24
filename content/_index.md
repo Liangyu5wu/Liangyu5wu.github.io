@@ -41,7 +41,8 @@ sections:
 
     
     design:
-      columns: 2
+      columns: '1'
+      view: full_width
   - block: collection
     id: papers
     content:
