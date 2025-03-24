@@ -83,7 +83,7 @@ education:
 
     button:
       text: 'CONTROL OF RADON AND RADON DAUGHTERS IN RARE DECAY EXPERIMENTS'
-      url: uploads/SJTU_SP_wly.pdf
+      url: ../../uploads/SJTU_SP_wly.pdf
       
 
 work:
