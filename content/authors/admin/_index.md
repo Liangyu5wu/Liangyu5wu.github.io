@@ -75,9 +75,15 @@ education:
     date_start: 2020-09-14
     date_end: 2024-06-30
     summary: |
-      GPA: 86.1/100. Supervised by [Prof. Yue Meng](https://www.physics.sjtu.edu.cn/en/jsml/mengyue.html)
+      GPA: 86.1/100.
+
+      Supervised by [Prof. Yue Meng](https://www.physics.sjtu.edu.cn/en/jsml/mengyue.html)
 
       Dissertation: CONTROL OF RADON AND RADON DAUGHTERS IN RARE DECAY EXPERIMENTS
+
+    button:
+      text: 'CONTROL OF RADON AND RADON DAUGHTERS IN RARE DECAY EXPERIMENTS'
+      url: uploads/SJTU_SP_wly.pdf
       
 
 work:
