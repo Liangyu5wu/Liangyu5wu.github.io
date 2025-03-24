@@ -122,7 +122,7 @@ skills:
       - name: C++
         description: ''
         percent: 100
-        icon: cplusplus
+        icon: devicon/cplusplus
       - name: CERN ROOT
         description: ''
         percent: 40
