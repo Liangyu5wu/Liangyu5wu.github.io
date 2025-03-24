@@ -58,17 +58,18 @@ education:
     button:
       text: 'Stanford Profile'
       url: 'https://profiles.stanford.edu/liangyu-wu'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: International Exchange Student
+    institution: University of Maryland, College Park
+    date_start: 2023-08-21
+    date_end: 2023-12-19
     summary: |
-      GPA: 3.8/4.0
+      GPA: 3.925/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - PHYS105 A Global Challenge: Energy and Climate Change, Instructor: [Prof. Jordan Goodman](https://umdphysics.umd.edu/people/faculty/current/item/187-goodman.html)
+      - PHYS165 Introduction to Programming in the Physical Sciences, Instructor: [Prof. Gregory Sullivan](https://umdphysics.umd.edu/people/faculty/current/item/516-gws.html)
+      - PHYS457 Introduction to Quantum Computing, Instructor: [Prof. Xiaodi Wu](https://www.cs.umd.edu/~xwu/)
+      - PHYS499A Special Problems in Physics, Supervised by [Prof. Sarah Eno](https://umdphysics.umd.edu/people/faculty/current/item/149-eno.html) & [Prof. Christopher Palmer](https://umdphysics.umd.edu/people/faculty/current/item/1751-capalmer.html)
   - area: BSc Artificial Intelligence
     institution: Massachusetts Institute of Technology
     date_start: 2016-01-01
