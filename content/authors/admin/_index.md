@@ -125,7 +125,7 @@ skills:
         icon: "custom/cplusplus"
       - name: CERN ROOT
         description: ''
-        percent: 40
+        percent: 50
         icon: code-bracket
   - name: Hobbies
     color: '#eeac02'
