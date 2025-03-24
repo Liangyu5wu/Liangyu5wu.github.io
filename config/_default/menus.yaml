@@ -7,12 +7,12 @@ main:
   - name: About
     url: /
     weight: 10
-  - name: Papers
-    url: /#papers
-    weight: 11
   - name: News
     url: /#news
-    weight: 12
+    weight: 11
+  - name: Papers
+    url: papers/
+    weight: 13
   - name: Talks
     url: talks/
     weight: 16
