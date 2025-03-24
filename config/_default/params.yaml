@@ -37,6 +37,10 @@ header:
     show_theme_chooser: true
     logo:
       text: "Liangyu Wu - Hunting in the Invisible World"
+    button:
+      enable: true
+      text: "Find me in the Inspire"
+      url: "https://inspirehep.net/authors/2895194"
 
 # Site footer
 footer:
