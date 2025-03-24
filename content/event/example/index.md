@@ -1,15 +1,15 @@
 ---
-title: Example Talk
+title: Recent Test Results of GBCR3 @SLAC
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: US ITk Pixels Workshop
+event_url: https://indico.cern.ch/event/1508742/
 
-location: Hugo Blox Builder HQ
+location: SLAC National Accelerator Laboratory
 address:
-  street: 450 Serra Mall
-  city: Stanford
+  street: 2575 Sand Hill Road
+  city: Menlo Park
   region: CA
-  postcode: '94305'
+  postcode: '94025'
   country: United States
 
 summary: An example talk using Hugo Blox Builder's Markdown slides feature.
@@ -30,7 +30,7 @@ authors:
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
