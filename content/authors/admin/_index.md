@@ -19,7 +19,7 @@ superuser: true
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
-role: Ph.D. Student in Physics
+role: PhD Student in Physics
 
 organizations:
   - name: Stanford University, Physics Department
@@ -49,7 +49,7 @@ interests:
   - Future Colliders
 
 education:
-  - area: Ph.D. in Physics (in progress)
+  - area: PhD in Physics (in progress)
     institution: Stanford University
     date_start: 2024-09-23
     date_end: 2029-09-23
