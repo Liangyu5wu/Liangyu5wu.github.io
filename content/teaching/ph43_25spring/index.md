@@ -1,7 +1,7 @@
 ---
 title: Physics 43 - Electricity and Magnetism
 summary: 2025 Spring Quarter TA
-date: 2025-03-23
+date: 2025-03-22
 type: docs
 math: false
 tags:
