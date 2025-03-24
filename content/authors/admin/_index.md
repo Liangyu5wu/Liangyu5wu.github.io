@@ -138,7 +138,7 @@ skills:
       - name: NBA 2K Games
         description: ''
         percent: 100
-        icon: hero/cube
+        icon: "custom/gamepad"
       - name: Music
         description: ''
         percent: 80
