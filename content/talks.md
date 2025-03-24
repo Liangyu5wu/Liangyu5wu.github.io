@@ -31,4 +31,5 @@ sections:
     design:
       # Choose a layout view
       view: article-grid
+      columns: 1
 ---
