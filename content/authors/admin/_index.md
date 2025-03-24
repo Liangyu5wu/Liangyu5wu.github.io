@@ -75,7 +75,7 @@ education:
     date_start: 2020-09-14
     date_end: 2024-06-30
     summary: |
-      GPA: 86.1/100.
+      GPA: 86.1/100
 
       Supervised by [Prof. Yue Meng](https://www.physics.sjtu.edu.cn/en/jsml/mengyue.html)
 
@@ -134,15 +134,15 @@ skills:
       - name: Basketball
         description: ''
         percent: 100
-        icon: 🏀
+        icon: basketball-ball
       - name: NBA 2K Games
         description: ''
         percent: 100
-        icon: 🎮
+        icon: gamepad
       - name: Music
         description: ''
         percent: 80
-        icon: 🎵
+        icon: music
 
 languages:
   - name: Chinese
