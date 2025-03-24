@@ -10,17 +10,13 @@ image:
   caption: 'Electricity and Magnetism'
 ---
 
-This class is the second course in a calculus-based, introductory physics sequence for scientists and engineers (Phys 40 series) focused on classical electromagnetism (E&M).
-
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
-
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
+**This class is the second course in a calculus-based, introductory physics sequence for scientists and engineers (Phys 40 series) focused on classical electromagnetism (E&M).**
 
 ## Video
 
 Teach your course by sharing videos with your students. Choose from one of the following approaches:
 
-{{< youtube D2vj0WcvH5c >}}
+{{< youtube XoVW7CRR5JY >}}
 
 **Youtube**:
 
