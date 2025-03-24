@@ -1,5 +1,5 @@
 ---
-title: Physics 43: Electricity and Magnetism
+title: Physics 43 - Electricity and Magnetism
 summary: Paul Bergeron (Instructor)
 date: 2025-04-01
 type: docs
