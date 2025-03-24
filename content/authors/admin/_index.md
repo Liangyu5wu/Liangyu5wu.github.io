@@ -142,7 +142,7 @@ skills:
       - name: Music
         description: ''
         percent: 80
-        icon: music
+        icon: hero/musical-note
 
 languages:
   - name: Chinese
