@@ -20,10 +20,10 @@ publication_short: ""
 abstract: In recent years, the issue of radon emanation and diffusion has become a critical concern for rare decay experiments, such as JUNO and PandaX-4T. This paper introduces a detector design featuring a symmetric radon detector cavity for the quantitative assessment of membrane materials' radon blocking capabilities. The performance of this design is evaluated through the application of Fick's Law and the diffusion equation considering material solubility. Our detector has completed measurements of radon diffusion coefficients for four types of membrane materials currently used in experiments, which also confirms the rationality of this detector design. The findings are instrumental in guiding the selection and evaluation of optimal materials for radon shielding to reduce radon background, contributing to boost sensitivities of rare event research.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: We designed a detector for the quantitative assessment of membrane materials’ radon blocking capabilities.
 
 tags:
-- Large Language Models
+- Detector R&D
 
 featured: true
 
