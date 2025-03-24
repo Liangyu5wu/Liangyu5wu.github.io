@@ -19,7 +19,7 @@ date: "2025-01-06T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-01-10T00:00:00Z"
+publishDate: "2025-03-24T13:26:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -42,7 +42,7 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.sciencedirect.com/science/article/abs/pii/S0168900225000014?via%3Dihub
+url_pdf: https://www.sciencedirect.com/science/article/pii/S0168900225000014?via%3Dihub
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -72,10 +72,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-
-# {{% callout note %}}
-# Create your slides in Markdown - click the *Slides* button to check out the example.
-# {{% /callout %}}
 
 In this paper we report the results of the GEANT4 simulation of optical photons created as the results of collisions with single particles with the energy 1 – 40 GeV. For the first time, the simulations were performed for the traditional HCAL tower considered for the ILC, CLIC, CLD and similar experiments, **but after adding additional active layers to collect Cherenkov signals**.
