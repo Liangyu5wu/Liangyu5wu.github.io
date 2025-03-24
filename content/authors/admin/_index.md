@@ -134,11 +134,11 @@ skills:
       - name: Basketball
         description: ''
         percent: 100
-        icon: ball
+        icon: hero/user-group
       - name: NBA 2K Games
         description: ''
         percent: 100
-        icon: gamepad
+        icon: hero/cube
       - name: Music
         description: ''
         percent: 80
