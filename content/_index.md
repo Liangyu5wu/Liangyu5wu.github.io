@@ -34,7 +34,7 @@ sections:
     content:
       title: 'Research Interests'
       subtitle: ''
-      text: |-
+      text: |
         <div class="row">
         <div class="col-12 col-md-6">
           <p>My research interests primarily focus on experimental particle physics and astro-particle physics. Currently, I'm a rotation student exploring different research areas, but over the past few quarters, my main focus has been R&D for detectors in future colliders – particularly on dual-readout calorimeters, including Geant4 simulations and on-chip ML research for front-end readouts.</p>
