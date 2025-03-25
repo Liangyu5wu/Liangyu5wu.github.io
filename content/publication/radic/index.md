@@ -1,5 +1,5 @@
 ---
-title: "Design and Experimental Application of a Radon Diffusion Chamber for Determining Diffusion Coefficients in Membrane Materials"
+title: "Design and experimental application of a radon diffusion chamber for determining diffusion coefficients in membrane materials"
 authors:
 - admin
 date: "2024-10-08T00:00:00Z"
