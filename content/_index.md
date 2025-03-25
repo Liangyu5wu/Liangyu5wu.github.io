@@ -42,7 +42,7 @@ sections:
     
     design:
       columns: '2'
-      view: full_width
+      view: compact
   - block: collection
     id: papers
     content:
