@@ -30,7 +30,7 @@ publication_short: "Nucl. Instrum. Methods Phys. Res. A"
 abstract: Calorimeters with dual readout measure both scintillation and Cherenkov light produced in their active media. They offer improvements in energy resolution and, therefore, have become increasingly interesting due to the need for precision jet measurements at Higgs factories. This paper presents GEANT4 simulations of single-particle responses in sampling and homogeneous calorimeters, and demonstrates the effect of inclusion of Cherenkov light in the reconstruction of energies.
 
 # Summary. An optional shortened abstract.
-summary: This paper presents GEANT4 simulations of single-particle responses in sampling and homogeneous calorimeters, and demonstrates the effect of inclusion of Cherenkov light in the reconstruction of energies.
+summary: Our simulations demonstrates the effect of inclusion of Cherenkov light in the reconstruction of energies for sampling and homogeneous calorimeters.
 
 tags:
 - Detector R&D
