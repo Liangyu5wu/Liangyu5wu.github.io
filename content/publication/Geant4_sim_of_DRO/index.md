@@ -54,7 +54,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Correlation between calibrated scintillation yield and Cherenkov yield for a 40L-PFQ calorimeter'
+  caption: 'An example of the shower produced by a 10 GeV pion interacting in the 40L-PFQ tower'
   focal_point: "Smart"
   preview_only: false
 
