@@ -45,7 +45,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Liangyu Wu. This work is licensed under {license}'
+    notice: '© {year} Liangyu Wu.'
     license:
       enable: true
       allow_derivatives: false
