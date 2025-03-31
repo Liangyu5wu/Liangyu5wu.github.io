@@ -3,7 +3,6 @@ title: 🎉 SJTU Undergrad Complete!
 summary: Graduated with Shanghai Outstanding Graduate honors and A+ thesis defense
 date: 2024-06-30
 
-# Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
   caption: ''
