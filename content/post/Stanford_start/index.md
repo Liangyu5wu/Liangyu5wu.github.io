@@ -1,6 +1,6 @@
 ---
 title: Hello Stanford, My PhD Journey Begins!
-summary: Arrived on campus, preparing for the new phase ahead。
+summary: Arrived on campus, preparing for the new phase ahead.
 date: 2024-08-30
 authors:
   - admin
