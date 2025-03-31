@@ -10,4 +10,4 @@ image:
   caption: ''
 ---
 
-Starting to adjust to the time difference and setting up my new studio apartment.
+Starting to overcome jet lag while settling into my new studio apartment. Many things to tackle, but the sunshine here is lovely!
