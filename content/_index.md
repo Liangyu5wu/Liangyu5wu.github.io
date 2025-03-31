@@ -14,7 +14,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
-      # Show a call-to-action button under your biography? (optional)
+      # Show a call-to-action button under your biography?
       button:
         text: CV for more details
         url: uploads/resume.pdf
