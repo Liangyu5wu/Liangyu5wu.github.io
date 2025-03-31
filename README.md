@@ -1,1 +1,2 @@
-Hugo Academic CV Theme
+This is my personal homepage source code.
+
