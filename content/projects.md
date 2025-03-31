@@ -11,8 +11,8 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things.
+      title: My Projects
+      text: Some workspace and please have fun!
       filters:
         folders:
           - project
