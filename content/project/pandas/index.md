@@ -1,13 +1,12 @@
 ---
 title: Pandas
-date: 2023-10-26
-external_link: https://github.com/pandas-dev/pandas
+date: 2025-03-31
+external_link: https://github.com/Liangyu5wu/On-chip_ML_DRO
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - Detector R&D
+  - Machine Learning
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+On-chip machine learning for dual-readout calorimeters
 
 <!--more-->
