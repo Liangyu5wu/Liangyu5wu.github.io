@@ -35,11 +35,9 @@ sections:
       title: 'Research Interests'
       subtitle: ''
       text: |-
-        <div class="smaller-text">
         My research interests primarily focus on experimental particle physics and astro-particle physics. Currently, I'm a rotation student exploring different research areas, but over the past few quarters, my main focus has been R&D for detectors in future colliders – particularly on dual-readout calorimeters, including Geant4 simulations and on-chip machine learning research for front-end readouts.
 
         Recently, I've begun working on the development of 5D calorimetry. This exciting technology will incorporate time information (x,y,z,t,E) to enhance LHC discovery potential. Additionally, I'm learning to test the GBCR (GigaBit Cable Receiver) ASIC, which will be used for data transmission in the upgraded ITK Pixels system at the LHC.
-        </div>
 
     design:
       columns: '2'
