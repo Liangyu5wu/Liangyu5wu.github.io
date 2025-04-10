@@ -25,5 +25,4 @@ The following 14 minutes video may give you some senses of how an electromagneti
 
 2 Discussion Sessions per week
 
-Grading
 {{< /spoiler >}}
