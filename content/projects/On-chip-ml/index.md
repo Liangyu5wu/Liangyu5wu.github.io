@@ -1,7 +1,7 @@
 ---
-title: On-chip ML
-summary: GBCR Test
-date: 2025-03-25
+title: On-chip Machine Learning
+summary: On-chip Machine Learning
+date: 2025-03-20
 type: docs
 math: false
 tags:
