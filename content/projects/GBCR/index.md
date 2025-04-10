@@ -1,6 +1,6 @@
 ---
 title: GBCR
-summary: GBCR Test
+summary: The GigaBit Cable Receiver (GBCR) ASIC
 date: 2025-03-31
 type: docs
 math: false
