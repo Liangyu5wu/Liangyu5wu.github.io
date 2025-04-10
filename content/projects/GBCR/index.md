@@ -1,6 +1,6 @@
 ---
 title: GBCR
-summary: GBCR
+summary: GBCR Test
 date: 2025-03-25
 type: docs
 math: false
