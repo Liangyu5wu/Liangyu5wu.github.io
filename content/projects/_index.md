@@ -1,6 +1,6 @@
 ---
 title: Projects
-summary: Some workspace and have fun!
+summary: My Projects
 type: landing
 
 cascade:
