@@ -1,13 +1,14 @@
 ---
 title: On-chip Machine Learning
 summary: On-chip Machine Learning
-date: 2025-03-20
+date: 2025-03-30
 type: docs
 math: false
 tags:
-  - LHC Upgrade
+  - Detector R&D
+  - Machine Learning
 image:
-  caption: 'GBCR QC/SEU Setup'
+  caption: 'On-chip Machine Learning'
 ---
 
 **This class is the second course in a calculus-based, introductory physics sequence for scientists and engineers (Phys 40 series) focused on classical electromagnetism (E&M).**
