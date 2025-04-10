@@ -1,7 +1,7 @@
 ---
 title: GBCR
 summary: GBCR Test
-date: 2025-03-25
+date: 2025-03-31
 type: docs
 math: false
 tags:
@@ -10,7 +10,7 @@ image:
   caption: 'GBCR QC/SEU Setup'
 ---
 
-**This class is the second course in a calculus-based, introductory physics sequence for scientists and engineers (Phys 40 series) focused on classical electromagnetism (E&M).**
+**The GigaBit Cable Receiver (GBCR) ASIC is designed as an equalizer chip to compensate the ITk pixel data transmission loss in the high frequency range.**
 
 ## Video
 
