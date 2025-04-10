@@ -1,7 +1,7 @@
 ---
 title: GBCR
 summary: GBCR
-date: 2025-03-22
+date: 2025-03-25
 type: docs
 math: false
 tags:
@@ -24,10 +24,6 @@ The following 14 minutes video may give you some senses of how an electromagneti
 2 Lectures per week
 
 2 Discussion Sessions per week
-
-1 TA Meeting per week
-
-3 hrs GSH per week
 
 Grading
 {{< /spoiler >}}
