@@ -1,6 +1,6 @@
 ---
-title: Projects-b
-summary: Projects-b
+title: Projects
+summary: Projects
 type: landing
 
 cascade:
@@ -13,11 +13,11 @@ sections:
   - block: collection
     id: projects
     content:
-      title: Projects-b
+      title: Projects
       filters:
         folders:
-          - projects-b
+          - projects
     design:
       view: article-grid
-      columns: 2
+      columns: 3
 ---
