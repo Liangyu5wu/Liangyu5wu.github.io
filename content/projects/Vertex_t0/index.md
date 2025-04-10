@@ -14,9 +14,7 @@ image:
 
 ## Video
 
-The following 14 minutes video may give you some senses of how an electromagnetic field works:
-
-{{< youtube XoVW7CRR5JY >}}
+The following 14 minutes video may
 
 ## Tasks
 
