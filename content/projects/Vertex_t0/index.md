@@ -1,6 +1,6 @@
 ---
 title: Vertex T0
-summary: Vertex T0
+summary: Reconstructing Timing Information Using Calorimeter
 date: 2025-03-28
 type: docs
 math: false
@@ -10,17 +10,20 @@ image:
   caption: 'Detector'
 ---
 
-**In 5D calorimetry our goal is to incorporate time information, as captured through the LAr and Tile calorimeters, combined with track measurements for precise vertex t0 reconstruction as a novel feature within the ATLAS experiment framework.**
+**How to utilize the timing capabilities of Liquid Argon (LAr) Calorimeter in ATLAS better?**
 
-## Video
+## Current Status
 
-The following 14 minutes video may
+Current ATLAS LAr Calorimeter has good timing resolution of O(100ps) or better at best cells. (HGTD can reach ~30ps)
 
-## Tasks
+Can we use LAr cells to achieve O(100ps) resolution for complex objects?
+
+
+## Recent Tasks
 
 {{< spoiler text="👉 Click to view the breakdown" >}} 
-2 Lectures per week
+1. Refine the binning and fitting plots
 
-2 Discussion Sessions per week
+2. Get the money plot of mean value&sigma.
 
 {{< /spoiler >}}
