@@ -17,7 +17,7 @@ image:
 **There are ~4500 GBCR chips in the ITk Pixel system.**
 
 <figure style="text-align: center;">
-  <img src="ITK_readout_system.png" alt="ATLAS ITK readout system" width="60%">
+  <img src="ITK_readout_system.png" alt="ATLAS ITK readout system" width="100%">
   <figcaption>ATLAS ITK readout system</figcaption>
 </figure>
 
