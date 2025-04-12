@@ -10,19 +10,26 @@ image:
   caption: 'GBCR QC/SEU Setup'
 ---
 
+## Current Status
+
 **The GigaBit Cable Receiver (GBCR) ASIC is designed as an equalizer chip to compensate the ITk pixel data transmission loss in the high frequency range.**
 
-## Current Status
+**There are ~4500 GBCR chips in the ITk Pixel system.**
 
 The TWiki page for GBCR: [GBCR](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/GBCR)
 
-Github Link: [GBCR3_SLAC](https://github.com/Liangyu5wu/GBCR3_SLAC)
+My Github Link: [GBCR3_SLAC](https://github.com/Liangyu5wu/GBCR3_SLAC)
 
-## Tasks
+The GBCR Testing Github: [GBCR-Testing](https://github.com/OSU-HEP-HDL/GBCR-Testing)
+
+## Recent Tasks
 
 {{< spoiler text="👉 Click to view the breakdown" >}} 
-2 Lectures per week
+1. Modify the summary part of main.py code
 
-2 Discussion Sessions per week
+2. Scan in the retimed mode first and stay in the bad phase point, then go back to the voted mode and check if there are correlated
+
+3. Do several new power-cycling and check the good window region in retimed mode
+
 
 {{< /spoiler >}}
