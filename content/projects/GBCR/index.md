@@ -12,11 +12,10 @@ image:
 
 **The GigaBit Cable Receiver (GBCR) ASIC is designed as an equalizer chip to compensate the ITk pixel data transmission loss in the high frequency range.**
 
-## Video
+## Current Status
 
-The following 14 minutes video may give you some senses of how an electromagnetic field works:
-
-{{< youtube XoVW7CRR5JY >}}
+The TWiki page for GBCR: [GBCR](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/GBCR)
+Github Link: [GBCR3_SLAC](https://github.com/Liangyu5wu/GBCR3_SLAC)
 
 ## Tasks
 
