@@ -100,7 +100,7 @@ work:
       - Update to the FACET-II TCAV GUI and analysis tools
   - position: Undergraduate Research Student
     company_name: University of Maryland, College Park
-    company_url: 'https://umdphysics.umd.edu'
+    company_url: 'https://umd.edu'
     company_logo: ''
     date_start: 2023-08-30
     date_end: 2024-08-30
