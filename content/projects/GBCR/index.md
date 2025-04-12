@@ -16,6 +16,11 @@ image:
 
 **There are ~4500 GBCR chips in the ITk Pixel system.**
 
+<figure style="text-align: center;">
+  <img src="ITK_readout_system.png" alt="ATLAS ITK readout system" width="60%">
+  <figcaption>ATLAS ITK readout system</figcaption>
+</figure>
+
 The TWiki page for GBCR: [GBCR](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/GBCR)
 
 My Github Link: [GBCR3_SLAC](https://github.com/Liangyu5wu/GBCR3_SLAC)
