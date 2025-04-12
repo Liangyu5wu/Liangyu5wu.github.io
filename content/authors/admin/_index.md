@@ -89,7 +89,7 @@ education:
 work:
   - position: Research Assistant
     company_name: SLAC National Accelerator Laboratory
-    company_url: ''
+    company_url: 'https://www6.slac.stanford.edu'
     company_logo: ''
     date_start: 2024-09-30
     date_end: ''
@@ -100,7 +100,7 @@ work:
       - Update to the FACET-II TCAV GUI and analysis tools
   - position: Undergraduate Research Student
     company_name: University of Maryland, College Park
-    company_url: ''
+    company_url: 'https://umdphysics.umd.edu'
     company_logo: ''
     date_start: 2023-08-30
     date_end: 2024-08-30
