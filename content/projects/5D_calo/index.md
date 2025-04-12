@@ -14,6 +14,8 @@ image:
 
 ## dSiPM
 
+Github Link: [HG-DREAM G4 simulation: dream 2.06](https://github.com/Liangyu5wu/DREAMSim)
+
 
 ## Recent Tasks
 
@@ -21,5 +23,7 @@ image:
 1. Refine the plot for step size = 5 plot
 
 2. Convert #photons to energy
+
+3. Figure out why the shower shape is diagonal
 
 {{< /spoiler >}}
