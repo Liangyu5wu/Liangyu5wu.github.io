@@ -19,11 +19,13 @@ Github Link: [HG-DREAM G4 simulation: dream 2.06](https://github.com/Liangyu5wu/
 
 ## Recent Tasks
 
-{{< spoiler text="👉 Click to view the breakdown" >}} 
+{{< spoiler text="Click to view the breakdown" >}} 
 1. Refine the plot for step size = 5 plot
 
 2. Convert #photons to energy
 
 3. Figure out why the shower shape is diagonal
+
+4. Start to reproduce Chris' plots
 
 {{< /spoiler >}}
