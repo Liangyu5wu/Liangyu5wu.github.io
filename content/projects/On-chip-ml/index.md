@@ -21,7 +21,7 @@ in dual readout calorimeters.**
   <figcaption>Prediction of the C&S components</figcaption>
 </figure>
 
-## Tasks
+## Recent Tasks
 
 {{< spoiler text="Click to view the breakdown" >}} 
 1. Waiting for the hadronic data
