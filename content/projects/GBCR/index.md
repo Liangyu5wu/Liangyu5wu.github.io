@@ -29,7 +29,7 @@ The GBCR Testing Github: [GBCR-Testing](https://github.com/OSU-HEP-HDL/GBCR-Test
 
 ## Recent Tasks
 
-{{< spoiler text="👉 Click to view the breakdown" >}} 
+{{< spoiler text="Click to view the breakdown" >}} 
 1. Modify the summary part of main.py code
 
 2. Scan in the retimed mode first and stay in the bad phase point, then go back to the voted mode and check if there are correlated
