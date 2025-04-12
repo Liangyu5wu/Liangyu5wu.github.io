@@ -14,9 +14,11 @@ image:
 
 ## Current Status
 
-Current ATLAS LAr Calorimeter has good timing resolution of O(100ps) or better at best cells. (HGTD can reach ~30ps)
+**Current ATLAS LAr Calorimeter has good timing resolution of O(100ps) or better at best cells. (HGTD can reach ~30ps)**
 
-Can we use LAr cells to achieve O(100ps) resolution for complex objects?
+**Can we use LAr cells to achieve O(100ps) resolution for complex objects?**
+
+![ATLAS LAr Calorimeter](LAr.png)
 
 
 ## Recent Tasks
