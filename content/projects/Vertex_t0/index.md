@@ -18,8 +18,7 @@ image:
 
 **Can we use LAr cells to achieve O(100ps) resolution for complex objects?**
 
-![ATLAS LAr Calorimeter](LAr.png)
-
+<img src="LAr.png" alt="ATLAS LAr Calorimeter" width="50%">
 
 ## Recent Tasks
 
