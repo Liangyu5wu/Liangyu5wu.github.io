@@ -15,6 +15,7 @@ sections:
     id: projects
     content:
       title: Projects
+      subtitle: A collection of my workspace and please have fun!
       filters:
         folders:
           - projects
