@@ -28,8 +28,10 @@ Github Link: [Data processing](https://github.com/Liangyu5wu/Vertex0)
 ## Recent Tasks
 
 {{< spoiler text="Click to view the breakdown" >}} 
-1. Refine the binning and fitting plots
+1. Refine the binwidth (10-20ps) and cancel the 100GeV upper bound
 
-2. Get the money plot of mean value&sigma
+2. Apply the new cut for trackings
+
+3. See if the time looks reasonable
 
 {{< /spoiler >}}
