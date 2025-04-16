@@ -32,6 +32,6 @@ Github Link: [Data processing](https://github.com/Liangyu5wu/Vertex0)
 
 2. Make a slide on what are the freedoms right now
 
-3. Draw the event dropping down curves
+3. Draw the #cells dropping down curves
 
 {{< /spoiler >}}
