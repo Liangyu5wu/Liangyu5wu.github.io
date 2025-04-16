@@ -1,5 +1,5 @@
 ---
-title: Vertex T0
+title: Vertex T0 Timing
 summary: Reconstructing Timing Information Using Calorimeter
 date: 2025-03-28
 type: docs
