@@ -32,7 +32,7 @@ The GBCR Testing Github: [GBCR-Testing](https://github.com/OSU-HEP-HDL/GBCR-Test
 {{< spoiler text="Click to view the breakdown" >}} 
 1. Modify the summary part of main.py code
 
-2. Scan in the retimed mode first and stay in the bad phase point, then go back to the voted mode and check if there are correlated
+2. Scan in the retimed mode first and stay in the bad phase point, then go back to the voted mode and check if there are correlated (for all the channels)
 
 3. Do several new power-cycling and check the good window region in retimed mode
 
