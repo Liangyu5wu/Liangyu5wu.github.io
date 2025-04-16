@@ -28,10 +28,10 @@ Github Link: [Data processing](https://github.com/Liangyu5wu/Vertex0)
 ## Recent Tasks
 
 {{< spoiler text="Click to view the breakdown" >}} 
-1. Refine the binwidth (10-20ps) and cancel the 100GeV upper bound
+1. Summarize the new plots in slide
 
-2. Apply the new cut for trackings
+2. Make a slide on what are the freedoms right now
 
-3. See if the time looks reasonable
+3. Draw the event dropping down curves
 
 {{< /spoiler >}}
