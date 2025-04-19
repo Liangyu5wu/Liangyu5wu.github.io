@@ -28,10 +28,10 @@ Github Link: [Data processing](https://github.com/Liangyu5wu/Vertex0)
 ## Recent Tasks
 
 {{< spoiler text="Click to view the breakdown" >}} 
-1. Summarize the new plots in slide
+1. Set the y-range fixed
 
-2. Make a slide on what are the freedoms right now
+2. Save high-res pics
 
-3. Draw the #cells dropping down curves
+3. Something new
 
 {{< /spoiler >}}
