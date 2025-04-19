@@ -32,6 +32,6 @@ Github Link: [Data processing](https://github.com/Liangyu5wu/Vertex0)
 
 2. Save high-res pics
 
-3. Something new
+3. Make the t-reconstruted plot first
 
 {{< /spoiler >}}
