@@ -43,7 +43,7 @@ image:
 #    url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
-url_slides: ''
+url_slides: ../../uploads/GBCR_ITKweek_0514.pdf
 url_video: ''
 
 # Markdown Slides (optional).
