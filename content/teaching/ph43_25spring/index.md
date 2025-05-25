@@ -18,7 +18,7 @@ The following 14 minutes video may give you some senses of how an electromagneti
 
 {{< youtube XoVW7CRR5JY >}}
 
-## Tasks
+## Class Schedule
 
 {{< spoiler text="👉 Click to view the breakdown" >}} 
 2 Lectures per week
