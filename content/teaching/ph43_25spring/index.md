@@ -20,14 +20,15 @@ The following 14 minutes video may give you some senses of how an electromagneti
 
 ## Class Schedule
 
-{{< spoiler text="👉 Click to view the breakdown" >}} 
-2 Lectures per week
-
-2 Discussion Sessions per week
-
-1 TA Meeting per week
-
-3 hrs GSH per week
-
-Grading
-{{< /spoiler >}}
+| Week | Tuesday                   | Thursday                        |
+|------|---------------------------|---------------------------------|
+| 1    | Electric Field            | Continuous Charge Distributions |
+| 2    | Gauss's Law               | Gauss's Law & Conductors        |
+| 3    | Electric Potential Energy | The Electric Potential          |
+| 4    |                           |                                 |
+| 5    |                           |                                 |
+| 6    |                           |                                 |
+| 7    |                           |                                 |
+| 8    |                           |                                 |
+| 9    |                           |                                 |
+| 10   |                           |                                 |
