@@ -1,7 +1,7 @@
 ---
 title: Recent Test Results of GBCR3 @SLAC
 
-event: US ITk Pixels Workshop
+event: <span style="color:blue">US ITk Pixels Workshop</span>
 event_url: https://indico.cern.ch/event/1508742/
 
 location: SLAC National Accelerator Laboratory
