@@ -30,5 +30,9 @@ The following 14 minutes video may give you some senses of how an electromagneti
 | 6    | RC Circuitry               | Magnetic Fields                 |
 | 7    | Sources of Magnetic Fields | Sources of Magnetic Fields      |
 | 8    | Faraday's Law              | Faraday's Law                   |
-| 9    | Inductance                 | Inductance                     |
+| 9    | Inductance                 | Inductance                      |
 | 10   | E&M                        |                                 |
+
+## Resources
+
+Online, open source text from Open Stax: [University Physics Volume 2](https://openstax.org/books/university-physics-volume-2/pages/5-introduction)
