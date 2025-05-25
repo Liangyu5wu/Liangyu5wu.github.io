@@ -95,6 +95,8 @@ work:
     date_end: ''
     summary: |2-
       Research on:
+      - Vertex t0 timing reconstruction in the LAr Calorimeter for the ATLAS experiment  
+      - Light occupancy simulation and on-chip energy reconstruction for the R&D of the dSiPMs
       - On-chip machine learning for waveform analysis and data compression in dual readout calorimeters
       - GigaBit Cable Receiver (GBCR) ASIC Testing
       - Update to the FACET-II TCAV GUI and analysis tools
