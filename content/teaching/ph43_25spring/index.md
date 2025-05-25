@@ -20,15 +20,15 @@ The following 14 minutes video may give you some senses of how an electromagneti
 
 ## Class Schedule
 
-| Week | Tuesday                   | Thursday                        |
-|------|---------------------------|---------------------------------|
-| 1    | Electric Field            | Continuous Charge Distributions |
-| 2    | Gauss's Law               | Gauss's Law & Conductors        |
-| 3    | Electric Potential Energy | The Electric Potential          |
-| 4    |                           |                                 |
-| 5    |                           |                                 |
-| 6    |                           |                                 |
-| 7    |                           |                                 |
-| 8    |                           |                                 |
-| 9    |                           |                                 |
-| 10   |                           |                                 |
+| Week | Tuesday                    | Thursday                        |
+|------|----------------------------|---------------------------------|
+| 1    | Electric Field             | Continuous Charge Distributions |
+| 2    | Gauss's Law                | Gauss's Law & Conductors        |
+| 3    | Electric Potential Energy  | The Electric Potential          |
+| 4    | Capacitance                | Capacitance & Dielectrics       |
+| 5    | Current & Resistance       | DC Circuits                     |
+| 6    | RC Circuitry               | Magnetic Fields                 |
+| 7    | Sources of Magnetic Fields | Sources of Magnetic Fields      |
+| 8    | Faraday's Law              | Faraday's Law                   |
+| 9    | Inductance                 | Inductance                     |
+| 10   | E&M                        |                                 |
