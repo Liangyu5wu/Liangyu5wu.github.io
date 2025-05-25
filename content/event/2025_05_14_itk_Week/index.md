@@ -1,7 +1,7 @@
 ---
 title: Recent Results of GBCR3 Testing @SLAC
 
-event: ITk Week 2025 (Pixels - On-detector Electronics)
+event: <span style="color:blue">ITk Week 2025 (Pixels - On-detector Electronics)</span>
 event_url: https://indico.cern.ch/event/1393708/#b-555609-pixels-on-detector-el
 
 location: 40/S2-D01 - Salle Dirac (CERN)
@@ -12,7 +12,7 @@ address:
   country: Switzerland
 
 summary: Data Transmission Tests
-abstract: 'This 15-minute talk presents some test results from the GBCR3 conducted recently in the SLAC EPP lab, and discusses several potential bugs that may require attention.'
+abstract: 'This 15-minute talk presents some test results from the GBCR3 conducted recently in the SLAC EPP lab, especially some retiming mode function tests.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
