@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Project
 summary: My Projects
 subtitle: My workspace and please have fun!
 type: landing
@@ -12,13 +12,13 @@ cascade:
 
 sections:
   - block: collection
-    id: projects
+    id: project
     content:
-      title: Projects
+      title: Project
       text: A collection of my workspace and please have fun!
       filters:
         folders:
-          - projects
+          - project
     design:
       view: article-grid
       columns: 3
