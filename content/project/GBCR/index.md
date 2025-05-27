@@ -27,14 +27,21 @@ My Github Link: [GBCR3_SLAC](https://github.com/Liangyu5wu/GBCR3_SLAC)
 
 The GBCR Testing Github: [GBCR-Testing](https://github.com/OSU-HEP-HDL/GBCR-Testing)
 
+## Performed QC Tests
+
+1. EQ Amplitude Factors Test
+2. Disable RX Channel Function Test
+3. Retiming Mode Function Test
+4. Retiming Mode & Voted Mode Correlation Test
+5. RX 5 Channel Retiming Mode Test
+
+
 ## Recent Tasks
 
 {{< spoiler text="Click to view the breakdown" >}} 
-1. Modify the summary part of main.py code
-
-2. Scan in the retimed mode first and stay in the bad phase point, then go back to the voted mode and check if there are correlated (for all the channels)
-
-3. Do several new power-cycling and check the good window region in retimed mode
+1. Test the influence from the cable lengths for the time window in retiming mode
+2. Report the function of new firmware
+3. Do several new power-cycling and check the good window region in retiming mode
 
 
 {{< /spoiler >}}
