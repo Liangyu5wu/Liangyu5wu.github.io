@@ -12,7 +12,7 @@ image:
 
 ## Introduction
 
-**The GigaBit Cable Receiver (GBCR) ASIC is designed as an equalizer chip to compensate the ITk pixel data transmission loss in the high frequency range.**
+**The GigaBit Cable Receiver (GBCR) ASIC is designed as an equalizer chip to compensate the ITk pixel data transmission loss in the high frequency range after the twinax Type-1 data E-links at 1.28Gb/s.**
 
 **There are ~4500 GBCR chips in the ITk Pixel system.**
 
