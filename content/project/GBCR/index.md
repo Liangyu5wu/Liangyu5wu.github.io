@@ -10,7 +10,7 @@ image:
   caption: 'GBCR QC/SEU Setup'
 ---
 
-## Current Status
+## Introduction
 
 **The GigaBit Cable Receiver (GBCR) ASIC is designed as an equalizer chip to compensate the ITk pixel data transmission loss in the high frequency range.**
 
@@ -23,7 +23,7 @@ image:
 
 The TWiki page for GBCR: [GBCR](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/GBCR)
 
-My Github Link: [GBCR3_SLAC](https://github.com/Liangyu5wu/GBCR3_SLAC)
+The software link: [GBCR3_SLAC](https://github.com/Liangyu5wu/GBCR3_SLAC)
 
 The GBCR Testing Github: [GBCR-Testing](https://github.com/OSU-HEP-HDL/GBCR-Testing)
 
