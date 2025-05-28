@@ -21,19 +21,26 @@ Github Workspace: [HG-DREAM G4 simulation: dream 2.06](https://github.com/Liangy
 Explore the photon occupancy for different segmentations of the dSiPMs.
 
 <figure style="text-align: center;">
-  <img src="Photon_distribution_display.png" alt="Photon distribution display" width="100%">
+  <img src="Photon_distribution_display.png" alt="Photon distribution display" width="90%">
   <figcaption>Photon distribution display in the Cherenkov fiber</figcaption>
 </figure>
 
+### Incident Angles Study
+
+Explore how to maximumly utilize the fibers in our calorimeter.
+
+### Energy Recontruction & Particle ID with ML
+
+Incorparating more timing information and shower structure information to further improve the energy resolution in the calorimeter.
 
 
 ## Recent Tasks
 
 {{< spoiler text="Click to view the breakdown" >}} 
-1. Convert #photons to energy
+1. Cancel the calorimeter intrinsic rotation
 
-2. Plot (n>2) plots
+2. Improve the time step to ~10ps level
 
-3. Send the slides to Ariel
+3. Input more information to the CNN
 
 {{< /spoiler >}}
