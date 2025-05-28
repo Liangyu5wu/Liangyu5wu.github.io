@@ -35,6 +35,12 @@ The GBCR Testing Github: [GBCR-Testing](https://github.com/OSU-HEP-HDL/GBCR-Test
 4. Retiming Mode & Voted Mode Correlation Test
 5. RX 5 Channel Retiming Mode Test
 
+## Experiment Tips:
+
+1. Be careful when plugging or unplugging MMCX cables. Try to hold the connector part firmly, otherwise the pins can easily become loose or detached.
+
+2. When placing the ASIC, align the circular marking on the chip with the PIN1 position on the receiver board.
+
 
 ## Recent Tasks
 
