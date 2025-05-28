@@ -18,6 +18,11 @@ Github Workspace: [HG-DREAM G4 simulation: dream 2.06](https://github.com/Liangy
 
 ### Photon Occupancy Study
 
+<figure style="text-align: center;">
+  <img src="Photon_distribution_display.png" alt="Photon distribution display" width="100%">
+  <figcaption>Photon distribution display in the Cherenkov fiber</figcaption>
+</figure>
+
 
 
 ## Recent Tasks
