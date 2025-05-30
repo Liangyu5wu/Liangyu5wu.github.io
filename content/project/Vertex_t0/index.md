@@ -28,10 +28,9 @@ Github Link: [Data processing](https://github.com/Liangyu5wu/Vertex0)
 ## Recent Tasks
 
 {{< spoiler text="Click to view the breakdown" >}} 
-1. Set the y-range fixed
-
-2. Save high-res pics
-
-3. Make the t-reconstruted plot first
+1. Play with the significance cut
+2. Matching the two leading jets with some PT cut
+3. chi-square fitting params?
+4. 0e/1e/2e cases
 
 {{< /spoiler >}}
