@@ -50,7 +50,7 @@ interests:
 
 education:
   - area: PhD in Physics (in progress)
-    institution: Stanford University & SLAC National Accelerator Laboratory
+    institution: Stanford University
     date_start: 2024-09-23
     date_end: 2029-09-23
     summary: |
