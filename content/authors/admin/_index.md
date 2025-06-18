@@ -111,7 +111,7 @@ work:
   - position: Undergraduate Research Student
     company_name: University of Maryland, College Park
     company_url: 'https://umd.edu'
-    company_logo: ''
+    company_logo: "custom/SLAC_LogoSD"
     date_start: 2023-08-30
     date_end: 2024-08-30
     summary: |
