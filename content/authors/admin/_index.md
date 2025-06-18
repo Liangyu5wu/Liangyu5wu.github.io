@@ -50,11 +50,11 @@ interests:
 
 education:
   - area: PhD in Physics (in progress)
-    institution: Stanford University
+    institution: Stanford University & SLAC National Accelerator Laboratory
     date_start: 2024-09-23
     date_end: 2029-09-23
     summary: |
-      Currently supervised by [Prof. Dong Su](https://profiles.stanford.edu/dong-su) & [Prof. Ariel Schwartzman](https://profiles.stanford.edu/ariel-schwartzman).
+      Currently supervised by [Dr. Julia Gonski](https://profiles.stanford.edu/julia-gonski) & [Dr. Dong Su](https://profiles.stanford.edu/dong-su).
     button:
       text: 'Stanford Profile'
       url: 'https://profiles.stanford.edu/liangyu-wu'
@@ -87,18 +87,26 @@ education:
       
 
 work:
-  - position: Research Assistant
+  - position: Research Assistant (On Rotation)
+    company_name: SLAC National Accelerator Laboratory
+    company_url: 'https://www6.slac.stanford.edu'
+    company_logo: ''
+    date_start: 2025-01-06
+    date_end: ''
+    summary: |2-
+      Supervised by Dr. Julia Gonksi, Dr. Ariel Schwartzman and Dr. Dong Su:
+      - Vertex t0 timing reconstruction in the LAr Calorimeter for the ATLAS experiment  
+      - Light occupancy simulation and energy reconstruction for the R&D of the dSiPMs
+      - On-chip machine learning for waveform analysis and data compression in dual readout calorimeters
+      - GigaBit Cable Receiver (GBCR) ASIC QC Testing
+  - position: Research Assistant (On Rotation)
     company_name: SLAC National Accelerator Laboratory
     company_url: 'https://www6.slac.stanford.edu'
     company_logo: ''
     date_start: 2024-09-30
-    date_end: ''
+    date_end: 2024-12-15
     summary: |2-
-      Research on:
-      - Vertex t0 timing reconstruction in the LAr Calorimeter for the ATLAS experiment  
-      - Light occupancy simulation and on-chip energy reconstruction for the R&D of the dSiPMs
-      - On-chip machine learning for waveform analysis and data compression in dual readout calorimeters
-      - GigaBit Cable Receiver (GBCR) ASIC Testing
+      Supervised by Dr. Spencer Gessner:
       - Update to the FACET-II TCAV GUI and analysis tools
   - position: Undergraduate Research Student
     company_name: University of Maryland, College Park
