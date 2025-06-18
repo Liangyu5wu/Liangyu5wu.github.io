@@ -90,7 +90,7 @@ work:
   - position: Research Assistant (On Rotation)
     company_name: SLAC National Accelerator Laboratory
     company_url: 'https://www6.slac.stanford.edu'
-    company_logo: ''
+    company_logo: "custom/SLAC_LogoSD"
     date_start: 2025-01-06
     date_end: ''
     summary: |2-
