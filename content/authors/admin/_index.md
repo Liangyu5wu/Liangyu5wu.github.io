@@ -115,9 +115,9 @@ work:
     date_start: 2023-08-30
     date_end: 2024-08-30
     summary: |
-      Research on:
-      - Performed Geant4 simulations of single-particle responses for diverse calorimeters
-      - Derived a formula that predicts the dual-readout-corrected energy from scintillator and Cherenkov signals alone
+      Supervised by Dr. Sarah Eno and Dr. Christopher Palmer:
+      - Geant4 simulations of single-particle responses for diverse calorimeters with dual-readout
+      - Formula derivation that predicts the dual-readout-corrected energy from scintillator and Cherenkov signals alone
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
