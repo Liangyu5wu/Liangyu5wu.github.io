@@ -90,7 +90,7 @@ work:
   - position: Research Assistant (On Rotation)
     company_name: SLAC National Accelerator Laboratory
     company_url: 'https://www6.slac.stanford.edu'
-    company_logo: "custom/SLAC_LogoSD"
+    company_logo: 'custom/SLAC_LogoSD'
     date_start: 2025-01-06
     date_end: ''
     summary: |2-
@@ -102,7 +102,7 @@ work:
   - position: Research Assistant (On Rotation)
     company_name: SLAC National Accelerator Laboratory
     company_url: 'https://www6.slac.stanford.edu'
-    company_logo: ''
+    company_logo: 'custom/SLAC_LogoSD'
     date_start: 2024-09-30
     date_end: 2024-12-15
     summary: |2-
@@ -111,7 +111,7 @@ work:
   - position: Undergraduate Research Student
     company_name: University of Maryland, College Park
     company_url: 'https://umd.edu'
-    company_logo: "custom/SLAC_LogoSD"
+    company_logo: ''
     date_start: 2023-08-30
     date_end: 2024-08-30
     summary: |
