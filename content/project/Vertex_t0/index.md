@@ -1,6 +1,6 @@
 ---
 title: Vertex T0 Timing
-summary: Reconstructing Timing Information Using Calorimeter
+summary: Reconstructing Timing Information Using LAr Calorimeter
 date: 2025-03-28
 type: docs
 math: false
@@ -10,7 +10,7 @@ image:
   caption: 'Detector'
 ---
 
-**How to utilize the timing capabilities of Liquid Argon (LAr) Calorimeter in ATLAS better?**
+**How to better utilize the timing capabilities of Liquid Argon (LAr) Calorimeter in ATLAS?**
 
 ## Current Status
 
@@ -28,9 +28,7 @@ Github Link: [Data processing](https://github.com/Liangyu5wu/Vertex0)
 ## Recent Tasks
 
 {{< spoiler text="Click to view the breakdown" >}} 
-1. Play with the significance cut
-2. Matching the two leading jets with some PT cut
-3. chi-square fitting params?
-4. 0e/1e/2e cases
-
+1. ML implementation
+2. US-ATLAS Workshop Slides
+3. Further distinguishing the b-jets and light-quarks (and gluons).
 {{< /spoiler >}}
