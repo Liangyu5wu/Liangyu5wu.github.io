@@ -1,6 +1,6 @@
 ---
 title: 5D Calorimetry
-summary: 5D Calorimetry
+summary: 5D Calorimetry R&D
 date: 2025-03-28
 type: docs
 math: false
@@ -12,7 +12,7 @@ image:
 
 **In 5D calorimetry our goal is to incorporate time information, as captured through the LAr and Tile calorimeters, combined with track measurements for precise vertex t0 reconstruction as a novel feature within the ATLAS experiment framework.**
 
-## dSiPM
+## dSiPM Study for Future Detectors
 
 Github Workspace: [HG-DREAM G4 simulation: dream 2.06](https://github.com/Liangyu5wu/DREAMSim)
 
@@ -37,10 +37,7 @@ Incorparating more timing information and shower structure information to furthe
 ## Recent Tasks
 
 {{< spoiler text="Click to view the breakdown" >}} 
-1. Cancel the calorimeter intrinsic rotation
-
-2. Improve the time step to ~10ps level
-
-3. Input more information to the CNN
+1. Follow the Auto-encoder study.
+2. CNN for energy regression with dSiPM-level pixels.
 
 {{< /spoiler >}}
