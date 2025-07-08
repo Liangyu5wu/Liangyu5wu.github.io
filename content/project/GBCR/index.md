@@ -46,8 +46,8 @@ The GBCR Testing Github: [GBCR-Testing](https://github.com/OSU-HEP-HDL/GBCR-Test
 
 {{< spoiler text="Click to view the breakdown" >}} 
 1. Test the influence from the cable lengths for the time window in retiming mode
-2. Report the function of new firmware
-3. Do several new power-cycling and check the good window region in retiming mode
+2. Retiming mode and equalizer amplitude correlation
+3. QC test procedures 
 
 
 {{< /spoiler >}}
