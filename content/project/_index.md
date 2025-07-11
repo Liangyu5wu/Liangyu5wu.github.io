@@ -29,6 +29,6 @@ sections:
           filters:
             brightness: 0.8
           size: contain
-          position: left
+          position: center
           parallax: true
 ---
