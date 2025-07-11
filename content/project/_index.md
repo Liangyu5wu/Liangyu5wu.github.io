@@ -22,4 +22,12 @@ sections:
     design:
       view: article-grid
       columns: 2
+      background:
+        color: white
+        image:
+          filename: project_bkg.png
+          filters:
+            brightness: 1.0
+          position: left
+          parallax: true
 ---
