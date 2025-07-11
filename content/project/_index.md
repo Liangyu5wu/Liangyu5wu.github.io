@@ -22,13 +22,14 @@ sections:
     design:
       view: article-grid
       columns: 2
+      css_class: dark
       background:
         color: white
         image:
           filename: project_bkg.png
           filters:
             brightness: 0.8
-          size: contain
+          size: cover
           position: center
           parallax: true
 ---
