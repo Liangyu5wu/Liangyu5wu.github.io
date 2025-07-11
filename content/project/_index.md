@@ -21,5 +21,5 @@ sections:
           - project
     design:
       view: article-grid
-      columns: 3
+      columns: 2
 ---
