@@ -17,25 +17,29 @@ image:
 
 ### Dual-readout Calorimeter
 
-*Extract S&C components from raw waveforms*
+*Extract C&S components from raw waveforms*
 
 <figure style="text-align: center;">
-  <img src="rising_edge.png" alt="Prediction of the C&S components" width="80%">
+  <img src="rising_edge.png" alt="Prediction of the C&S components" width="60%">
   <figcaption>Prediction of the C&S components</figcaption>
 </figure>
+
+Github Link: [Models&Plotting](https://github.com/Liangyu5wu/On-chip_ML_DRO)
 
 #### Recent Tasks
 
 {{< spoiler text="Click to view the breakdown" >}} 
 1. Waiting for the hardonic data
-
 {{< /spoiler >}}
-
-Github Link: [Models&Plotting](https://github.com/Liangyu5wu/On-chip_ML_DRO)
 
 ### Drift Chamber
 
 *Predict ionization cluster numbers for PID*
+
+<figure style="text-align: center;">
+  <img src="Peak_distribution.png" alt="Classic Distribution of Electrons in a DCH" width="60%">
+  <figcaption>Classic Distribution of Electrons in a DCH</figcaption>
+</figure>
 
 
 #### Recent Tasks
