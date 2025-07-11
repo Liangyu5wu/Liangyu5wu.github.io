@@ -45,7 +45,7 @@ Github Link: [Models&Plotting](https://github.com/Liangyu5wu/On-chip_ML_DRO)
 #### Recent Tasks
 
 {{< spoiler text="Click to view the breakdown" >}} 
-1. D2 algorithm implementation
-2. Regressing the #clusters directly
-
+1. Test Clusterization-algorithm on truth-level peaks data (make sure CLN-algorithm works)
+2. Plot the prediction efficiency of D2 algorithm in different time domains
+3. Compare ML with the D2+clusterization-algorithm (&truth-peaks) on the cluster-prediction
 {{< /spoiler >}}
