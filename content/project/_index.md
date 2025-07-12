@@ -24,7 +24,6 @@ sections:
       columns: 2
       css_class: dark
       background:
-        color: white
         image:
           filename: project_bkg.png
           filters:
