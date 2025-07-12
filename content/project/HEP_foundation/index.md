@@ -6,12 +6,11 @@ type: docs
 math: false
 tags:
   - Machine Learning
-  - Physics Analysis
 image:
   caption: 'Foundation Model'
 ---
 
-**How to train a foundation model for high-energy physics that can provide benefit in various downstream applications**
+**How to train a foundation model for high-energy physics that can provide benefit in various downstream applications?**
 
 
 
