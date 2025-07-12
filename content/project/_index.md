@@ -30,5 +30,5 @@ sections:
             brightness: 1.0
           size: contain
           position: center
-          parallax: false
+          parallax: true
 ---
