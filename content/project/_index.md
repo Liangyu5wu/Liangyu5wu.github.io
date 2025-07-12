@@ -20,6 +20,7 @@ sections:
         folders:
           - project
     design:
+      css_class: dark
       view: article-grid
       columns: 2
       background:
