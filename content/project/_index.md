@@ -23,6 +23,7 @@ sections:
       view: article-grid
       columns: 2
       background:
+        color: white
         image:
           filename: project_bkg.png
           filters:
