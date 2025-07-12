@@ -28,7 +28,7 @@ sections:
           filename: project_bkg.png
           filters:
             brightness: 1.0
-          size: cover
+          size: contain
           position: center
-          parallax: true
+          parallax: false
 ---
