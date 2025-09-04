@@ -47,6 +47,7 @@ profiles:
 interests:
   - Experimental High-energy Physics
   - Future Colliders
+  - Microelectronics in particle physics experiments
 
 education:
   - area: PhD in Physics (in progress)
@@ -172,7 +173,5 @@ awards:
 ## About Me
 
 <div style="color: white;">
-  Hey! My name is Liangyu Wu (吴粮宇, pronounced as <i>"Lee-ahng-yu Woo"</i>). I'm just beginning my journey as a first-year PhD student in the <a href="https://physics.stanford.edu/" style="color: #FFDF00;">Physics Department at Stanford University </a>. One of my favorite things is chatting with researchers from all sorts of backgrounds to hear about the cool stuff everyone's working on!
-
-  Currently, I am a rotation student working at SLAC National Accelerator Laboratory's <a href="https://atlas.slac.stanford.edu" style="color: #FFDF00;">SLAC ATLAS group</a>. Fingers crossed I'll find my perfect research home soon and get settled in!
+  Hey! My name is Liangyu Wu (吴粮宇, pronounced as <i>"Lee-ahng-yu Woo"</i>). I'm a second-year PhD student in the <a href="https://physics.stanford.edu/" style="color: #FFDF00;">Physics Department at Stanford University</a>, currently working as a PhD student at SLAC National Accelerator Laboratory's <a href="https://atlas.slac.stanford.edu" style="color: #FFDF00;">SLAC ATLAS group</a>. One of my favorite things is chatting with researchers from all sorts of backgrounds to hear about the cool stuff everyone's working on!
 </div>
