@@ -92,20 +92,20 @@ work:
     company_name: SLAC National Accelerator Laboratory
     company_url: 'https://www6.slac.stanford.edu'
     company_logo: SLAC_LogoSD
-    date_start: 2025-08-01
+    date_start: 2025-09-01
     date_end: ''
     summary: |2-
       Supervised by Dr. Julia Gonksi and Dr. Dong Su:
       - R&D of the eFPGA techniques
       - R&D of the advanced detectors in future colliders
-      - Data transmission in ATLAS experiment (HL-LHC)
+      - Data transmission of ITk in ATLAS experiment (HL-LHC)
       - Primary vertex t0 reconstruction using the ATLAS LAr Calorimeter
   - position: Research Assistant (On Rotation)
     company_name: SLAC National Accelerator Laboratory
     company_url: 'https://www6.slac.stanford.edu'
     company_logo: SLAC_LogoSD
     date_start: 2025-01-05
-    date_end: 2025-08-01
+    date_end: 2025-09-01
     summary: |2-
       Supervised by Dr. Julia Gonksi, Dr. Ariel Schwartzman and Dr. Dong Su:
       - Vertex t0 timing reconstruction in the LAr Calorimeter for the ATLAS experiment  
