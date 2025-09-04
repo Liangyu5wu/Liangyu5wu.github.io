@@ -19,7 +19,7 @@ superuser: true
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
-role: PhD Student in Physics
+role: Physics PhD Student
 
 organizations:
   - name: Stanford University, Physics Department
