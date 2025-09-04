@@ -4,7 +4,7 @@ This repository contains the source code for Liangyu Wu's personal academic webs
 
 ## About
 
-A personal academic website showcasing research interests, publications, projects, and professional experience in experimental particle physics and astro-particle physics.
+A personal academic website showcasing research interests, publications, projects, and professional experience in experimental particle physics.
 
 ## Built With
 
