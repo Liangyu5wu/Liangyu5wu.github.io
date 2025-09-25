@@ -1,6 +1,6 @@
 ---
 title: Teaching
-summary: My courses
+summary: The courses I have TA'ed
 type: landing
 
 cascade:
@@ -19,5 +19,5 @@ sections:
           - teaching
     design:
       view: article-grid
-      columns: 1
+      columns: 2
 ---
