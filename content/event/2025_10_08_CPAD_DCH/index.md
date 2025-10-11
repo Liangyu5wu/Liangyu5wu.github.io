@@ -2,7 +2,7 @@
 title: Embedded ML Solutions for Real-time Processing in Future Drift Chambers
 
 event: <span style="color:blue">CPAD 2025 at Penn</span>
-event_url: https://indico.global/event/14966/overview
+event_url: https://indico.global/event/14966/contributions/133342
 
 location: Inn at Penn, University of Pennsylvania
 address:
