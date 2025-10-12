@@ -23,7 +23,7 @@ image:
 
 The TWiki page for GBCR: [GBCR](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/GBCR)
 
-The software link: [GBCR3_SLAC](https://github.com/Liangyu5wu/GBCR3_SLAC)
+The software link: [rce/gbcr_qc](https://gitlab.cern.ch/rce/gbcr_qc)
 
 The GBCR Testing Github: [GBCR-Testing](https://github.com/OSU-HEP-HDL/GBCR-Testing)
 
@@ -35,18 +35,12 @@ The GBCR Testing Github: [GBCR-Testing](https://github.com/OSU-HEP-HDL/GBCR-Test
 4. Retiming Mode & Voted Mode Correlation Test
 5. RX 5 Channel Retiming Mode Test
 
-## Experiment Tips:
 
-1. Be careful when plugging or unplugging MMCX cables. Try to hold the connector part firmly, otherwise the pins can easily become loose or detached.
-
-2. When placing the ASIC, align the circular marking on the chip with the PIN1 position on the receiver board.
-
-
-## Recent Tasks
+## Milestones
 
 {{< spoiler text="Click to view the breakdown" >}} 
-1. Test the influence from the cable lengths for the time window in retiming mode
-2. Retiming mode and equalizer amplitude correlation
+1. Developed the GBCR software gitlab repo.
+2. QC'ed several GBCR3 chips for SEU test. 
 3. QC test procedures 
 
 
