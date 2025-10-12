@@ -185,5 +185,5 @@ awards:
 ## About Me
 
 <div style="color: white;">
-  Hey! My name is Liangyu Wu (吴粮宇, pronounced as <i>"Lee-ahng-yu Woo"</i>). I'm a second-year PhD student in the <a href="https://physics.stanford.edu/" style="color: #FFDF00;">Physics Department at Stanford University</a>, currently working at SLAC National Accelerator Laboratory's <a href="https://atlas.slac.stanford.edu" style="color: #FFDF00;">SLAC ATLAS group</a>. One of my favorite things is chatting with researchers from all sorts of backgrounds to hear about the cool stuff everyone's working on!
+  Hey! My name is Liangyu Wu (吴粮宇, pronounced as <i>"Lee-ahng-yu Woo"</i>). I'm a 2nd-year PhD student in the <a href="https://physics.stanford.edu/" style="color: #FFDF00;">Physics Department at Stanford University</a>, currently working at SLAC National Accelerator Laboratory's <a href="https://atlas.slac.stanford.edu" style="color: #FFDF00;">SLAC ATLAS group</a>. One of my favorite things is chatting with researchers from all sorts of backgrounds to hear about the cool stuff everyone's working on!
 </div>
