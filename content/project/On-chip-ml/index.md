@@ -1,7 +1,7 @@
 ---
 title: eFPGA Technology
 summary: Machine Learning At-source
-date: 2025-07-11
+date: 2025-10-10
 type: docs
 math: false
 tags:
