@@ -35,7 +35,7 @@ sections:
       title: 'Research Interests'
       subtitle: ''
       text: |-
-        My research interests primarily focus on experimental particle physics and astro-particle physics. Currently, I am primarily focused on R&D for detectors in future colliders – particularly on dual-readout calorimeters and drift chambers, combined with Geant4 simulations and on-chip machine learning research for front-end readouts.
+        My research interests primarily focus on experimental particle physics. Currently, I am mainly focused on R&D for detectors in future colliders – particularly on dual-readout calorimeters and drift chambers, combined with Geant4 simulations and on-chip machine learning research for front-end readouts.
 
         In the ATLAS experiment, I am currently working in the LAr calorimeter on the development of 5D calorimetry. This exciting technology will incorporate more timing information (x,y,z,t,E) to enhance LHC discovery potential. Additionally, I'm conducting the QC test of GBCR (GigaBit Cable Receiver) ASIC, which will be used for data transmission in the upgraded ITK Pixels system at the LHC.
 
