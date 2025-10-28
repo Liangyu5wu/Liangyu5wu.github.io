@@ -17,19 +17,19 @@ author_notes:
   - 'Equal contribution'
 
 date: '2025-01-29T00:00:00Z'
-doi: ''
+doi: '10.1016/j.nima.2025.171080'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-03-24T14:42:00Z'
+publishDate: '2025-10-27T14:42:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard. 'paper-conference'
-publication_types: ['article']
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment"
+publication_short: "Nucl. Instrum. Methods Phys. Res. A"
 
 abstract: Dual readout calorimeters allow state-of-the-art resolutions for hadronic energy measurements. Their various incarnations are leading candidates for the calorimeter systems for future colliders. In this paper, we present a simple formula for the resolution of a dual readout calorimeter, which we verify with a toy simulation and with full simulation results. This formula can help those new to dual readout calorimetry understand its strengths and limitations. The paper also highlights that the dual readout correction works not just to compensate for binding energy loss, but also for energies escaping the calorimeter or clustering algorithm. Formulae are also presented for approximate resolutions and energy scales in terms of different sources of response.
 
@@ -40,12 +40,12 @@ tags:
   - Detector R&D
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 links:
 - name: Link
-  url: https://arxiv.org/abs/2501.15329
+  url: https://doi.org/10.1016/j.nima.2025.171080
 
 url_pdf: ''
 url_code: ''
