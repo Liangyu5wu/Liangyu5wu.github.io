@@ -61,6 +61,15 @@ sections:
     design:
       view: article-grid
       columns: 2
+      background:
+        color: black
+        image:
+          filename: LHC_D1.jpg
+          filters:
+            brightness: 0.4
+          size: cover
+          position: center
+          parallax: true
   - block: collection
     id: talks
     content:
