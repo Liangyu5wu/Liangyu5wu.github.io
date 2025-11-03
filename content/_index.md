@@ -121,6 +121,16 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+      css_class: dark
+      background:
+        color: black
+        image:
+          filename: SLAC_P1.jpg
+          filters:
+            brightness: 0.4
+          size: cover
+          position: center
+          parallax: true
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
