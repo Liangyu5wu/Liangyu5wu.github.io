@@ -61,6 +61,7 @@ sections:
     design:
       view: article-grid
       columns: 2
+      css_class: dark
       background:
         color: black
         image:
@@ -81,6 +82,7 @@ sections:
     design:
       view: article-grid
       columns: 2
+      css_class: dark
       background:
         color: black
         image:
