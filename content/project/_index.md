@@ -29,7 +29,7 @@ sections:
           filename: love_me_later.jpg
           filters:
             brightness: 0.4
-          size: contain
+          size: cover
           position: center
           parallax: true
 ---
