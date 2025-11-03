@@ -11,7 +11,7 @@ design:
     image:
       filename: love_me_later.jpg
       filters:
-        brightness: 0.4
+        brightness: 0.2
       size: cover
       position: center
       parallax: true
