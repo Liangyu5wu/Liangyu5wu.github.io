@@ -22,13 +22,14 @@ sections:
     design:
       view: article-grid
       columns: 2
+      css_class: dark
       background:
-        color: white
+        color: black
         image:
-          filename: project_bkg.png
+          filename: love_me_later.jpg
           filters:
-            brightness: 0.0
-          size: contain
+            brightness: 0.4
+          size: cover
           position: center
           parallax: true
 ---
