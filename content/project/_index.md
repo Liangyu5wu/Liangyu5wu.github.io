@@ -26,7 +26,7 @@ sections:
       background:
         color: black
         image:
-          filename: electronics/FPGA_KC705.jpg
+          filename: /electronics/FPGA_KC705.jpg
           filters:
             brightness: 0.4
           size: cover
