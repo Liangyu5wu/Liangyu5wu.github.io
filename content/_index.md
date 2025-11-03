@@ -119,8 +119,8 @@ sections:
       # Choose a layout view
       view: date-title-summary
       # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      # spacing:
+        # padding: [0, 0, 0, 0]
       css_class: dark
       background:
         color: black
