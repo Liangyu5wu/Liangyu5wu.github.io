@@ -40,8 +40,16 @@ sections:
         In the ATLAS experiment, I am currently working in the LAr calorimeter on the development of 5D calorimetry. This exciting technology will incorporate more timing information (x,y,z,t,E) to enhance LHC discovery potential. Additionally, I'm conducting the QC test of GBCR (GigaBit Cable Receiver) ASIC, which will be used for data transmission in the upgraded ITK Pixels system at the LHC.
 
     design:
-      columns: '2'
-      view: compact
+      css_class: dark
+      background:
+        color: black
+        image:
+          filename: ATLAS_D2.jpg
+          filters:
+            brightness: 0.4
+          size: cover
+          position: center
+          parallax: true
   - block: collection
     id: papers
     content:
