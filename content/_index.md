@@ -80,7 +80,16 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 1
+      columns: 2
+      background:
+        color: black
+        image:
+          filename: FCC_P1.jpg
+          filters:
+            brightness: 0.4
+          size: cover
+          position: center
+          parallax: true
   - block: collection
     id: news
     content:
