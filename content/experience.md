@@ -5,6 +5,16 @@ type: landing
 
 design:
   spacing: '5rem'
+  css_class: dark
+  background:
+    color: black
+    image:
+      filename: love_me_later.jpg
+      filters:
+        brightness: 0.4
+      size: cover
+      position: center
+      parallax: true
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
