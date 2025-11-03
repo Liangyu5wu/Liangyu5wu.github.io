@@ -15,7 +15,7 @@ sections:
     id: project
     content:
       title: Project
-      text: A collection of my workspace and please have fun!
+      text: '<span style="color: white;">A collection of my workspace and please have fun!</span>'
       filters:
         folders:
           - project
