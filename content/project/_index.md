@@ -26,7 +26,7 @@ sections:
       background:
         color: black
         image:
-          filename: love_me_later.jpg
+          filename: electronics/FPGA_KC705.jpg
           filters:
             brightness: 0.4
           size: cover
