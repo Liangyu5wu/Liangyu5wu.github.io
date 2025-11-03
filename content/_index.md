@@ -26,7 +26,7 @@ sections:
           # Add your image background to `assets/media/`.
           filename: ATLAS_Detector.jpg
           filters:
-            brightness: 0.5
+            brightness: 0.4
           size: cover
           position: center
           parallax: true
