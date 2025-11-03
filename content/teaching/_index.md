@@ -20,4 +20,14 @@ sections:
     design:
       view: article-grid
       columns: 2
+      css_class: dark
+      background:
+        color: black
+        image:
+          filename: physics_teaching.jpg
+          filters:
+            brightness: 0.4
+          size: cover
+          position: center
+          parallax: true
 ---
