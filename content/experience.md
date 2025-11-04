@@ -63,7 +63,7 @@ sections:
     content:
       title: Languages
       username: admin
-     design:
+    design:
       css_class: dark
       background:
         color: black
