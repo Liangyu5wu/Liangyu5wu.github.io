@@ -34,6 +34,16 @@ sections:
       username: admin
     design:
       show_skill_percentage: false
+      css_class: dark
+      background:
+        color: black
+        image:
+          filename: basketball.jpg
+          filters:
+            brightness: 0.4
+          size: cover
+          position: center
+          parallax: true
   - block: resume-awards
     content:
       title: Awards
