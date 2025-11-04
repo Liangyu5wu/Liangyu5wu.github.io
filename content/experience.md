@@ -18,16 +18,16 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-    css_class: dark
-    background:
-      color: black
-      image:
-        filename: love_me_later.jpg
-        filters:
-          brightness: 0.4
-        size: cover
-        position: center
-        parallax: true
+      css_class: dark
+      background:
+        color: black
+        image:
+          filename: love_me_later.jpg
+          filters:
+            brightness: 0.4
+          size: cover
+          position: center
+          parallax: true
   - block: resume-skills
     content:
       title: Skills & Hobbies
