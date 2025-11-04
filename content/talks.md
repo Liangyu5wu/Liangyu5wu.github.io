@@ -32,4 +32,14 @@ sections:
       # Choose a layout view
       view: article-grid
       columns: 1
+      css_class: dark
+      background:
+        color: black
+        image:
+          filename: FCC_pp-TUNNEL.jpg
+          filters:
+            brightness: 0.4
+          size: cover
+          position: center
+          parallax: true
 ---
