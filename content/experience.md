@@ -63,15 +63,4 @@ sections:
     content:
       title: Languages
       username: admin
-    design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          filename: /albums/DTao.jpg
-          filters:
-            brightness: 0.4
-          size: cover
-          position: center
-          parallax: true
 ---
