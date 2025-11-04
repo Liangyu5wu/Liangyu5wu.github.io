@@ -22,7 +22,7 @@ sections:
       background:
         color: black
         image:
-          filename: love_me_later.jpg
+          filename: /albums/love_me_later.jpg
           filters:
             brightness: 0.4
           size: cover
@@ -38,7 +38,7 @@ sections:
       background:
         color: black
         image:
-          filename: basketball.jpg
+          filename: /albums/Stripelife.jpg
           filters:
             brightness: 0.4
           size: cover
@@ -48,6 +48,17 @@ sections:
     content:
       title: Awards
       username: admin
+    design:
+      css_class: dark
+      background:
+        color: black
+        image:
+          filename: /albums/Voicenotes.jpg
+          filters:
+            brightness: 0.4
+          size: cover
+          position: center
+          parallax: true
   - block: resume-languages
     content:
       title: Languages
