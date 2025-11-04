@@ -64,7 +64,6 @@ sections:
       title: Languages
       username: admin
     design:
-      css_class: dark
       background:
         color: black
         image:
