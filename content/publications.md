@@ -5,6 +5,16 @@ type: landing
 
 design:
   spacing: '6rem'
+  css_class: dark
+  background:
+    color: black
+    image:
+      filename: run205113.jpg
+      filters:
+        brightness: 0.4
+      size: cover
+      position: center
+      parallax: true
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
