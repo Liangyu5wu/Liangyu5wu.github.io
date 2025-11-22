@@ -8,12 +8,14 @@ authors:
   - D. Yilmaz
   - admin
   - J. Gonski
+  - D. Rankin
+  - C. Herwig
 
 # Author notes (optional)
 author_notes:
 
 date: '2025-11-13T00:00:00Z'
-doi: 'https://arxiv.org/abs/2511.10540v1'
+doi: 'https://arxiv.org/abs/2511.10540v2'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2025-11-13T22:00:00Z'
@@ -42,7 +44,7 @@ featured: true
 # Custom links (uncomment lines below)
 links:
 - name: Link
-  url: https://arxiv.org/abs/2511.10540v1
+  url: https://arxiv.org/abs/2511.10540v2
 
 url_pdf: ''
 url_code: ''
