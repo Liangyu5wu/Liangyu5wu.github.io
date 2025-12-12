@@ -4,7 +4,7 @@ title: Vertex t0 Reconstruction Using LAr Calorimeter with Outlook for LAr-HGTD 
 event: <span style="color:blue">ATLAS Timing Workshop</span>
 event_url: https://indico.cern.ch/event/1613530/timetable/?view=standard#16-vertex-t0-reconstruction-us
 
-location: SLAC National Accelerator Laboratory
+location: 593/R-010 - Salle 11 (CERN)
 address:
   street: 1217 Meyrin
   city: Geneva 23
@@ -56,10 +56,8 @@ slides: ""
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-projects:
-   - Vertex_t0
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-   - GBCR
+   - Vertex_t0
 ---
