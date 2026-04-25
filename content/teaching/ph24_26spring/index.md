@@ -14,7 +14,7 @@ image:
 
 ## Overview
 
-The labs in this course are designed to complement material presented in PH23.
+The labs in this course are designed to complement material presented in PH23 (Electricity, Magnetism, and Optics).
 
 ## Lab Schedule
 
