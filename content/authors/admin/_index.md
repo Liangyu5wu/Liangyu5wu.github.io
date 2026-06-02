@@ -19,7 +19,7 @@ superuser: true
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
-role: Physics PhD Student
+role: Physics PhD Candidate
 
 organizations:
   - name: Stanford University, Physics Department
@@ -98,7 +98,8 @@ work:
       Supervised by Dr. Julia Gonksi and Dr. Dong Su:
       - R&D of the eFPGA techniques
       - R&D of the advanced detectors in future colliders
-      - Data transmission of ITk in ATLAS experiment (HL-LHC)
+      - R&D of the foundation models in high-energy physics
+      - Data transmission test of ITk in ATLAS experiment (HL-LHC)
       - Primary vertex t0 reconstruction using the ATLAS LAr Calorimeter
   - position: Research Assistant (On Rotation)
     company_name: SLAC National Accelerator Laboratory
