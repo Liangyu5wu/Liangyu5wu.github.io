@@ -181,6 +181,9 @@ awards:
   - title: Shanghai Outstanding Graduate honors
     date: '2024-05-20'
     awarder: Shanghai Education Commission
+  - title: Future Circular Collider Early Career Researcher (ECR) Award
+    date: '2026-06-10'
+    awarder: FCC project and Springer Nature
 ---
 
 ## About Me
