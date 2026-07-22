@@ -162,6 +162,22 @@ window.SITE = {
   // authors: use "admin" to mark self (rendered bold, no link)
   publications: [
     {
+      slug: "HAXAD_anomaly",
+      title: "Towards anomaly detection searches for new physics signatures including Higgs bosons with weakly supervised machine learning",
+      authors: ["C. L. Cheng", "J. Gonski", "R. Li", "Q. Liu", "B. Nachman", "D. Noll", "J. K. Romman", "admin"],
+      date: "2026-07-21",
+      venue: "arXiv",
+      type: "arXiv",
+      featured: true,
+      tags: ["Machine Learning", "Anomaly Detection", "Higgs"],
+      image: "assets/content/HAXAD_anomaly.png",
+      caption: "HAXAD feature embedding: signal region / sideband with γγ+jets, Higgs, signal, and background estimate",
+      summary: "Extends the Higgs And X Anomaly Detection (HAXAD) strategy — ML feature embedding, background estimation, and weakly supervised classification — toward application on real collider data, with new embeddings, an inference framework for cross-section limits, and broader signal coverage.",
+      abstract: "The Higgs boson, with its universal coupling to mass, provides a broadly applicable portal to sectors beyond the Standard Model and is therefore a natural anchor for anomaly detection (AD) at collider experiments. The Higgs And X Anomaly Detection (HAXAD) strategy offers a principled approach to searching for such anomalies occurring in association with a Higgs boson by combining machine-learning-based feature embedding, background estimation, and weakly supervised classification. This work extends the previous HAXAD approach towards the level of maturity required for application to recorded collider data. A major addition is the introduction and comparison of two new embedding strategies, which in turn shape the background estimation and classification. In addition, a new inference framework is developed, yielding signal-agnostic and signal-specific cross section limits and thereby completing the statistical machinery needed for future AD analyses built on HAXAD. The set of investigated signal models is also significantly expanded, allowing for the evaluation of sensitivity on a much broader phase space. Improvements to the method increase signal sensitivity with respect to the original method, and when benchmarked against an example cut-based search on the same final state, HAXAD matches or exceeds the best individual cut-based limits for a wide variety of considered signal models. These developments strengthen the case for HAXAD as a viable and compelling AD-based search strategy with novel discovery potential at colliders.",
+      links: { pdf: "https://arxiv.org/abs/2607.19323", external: "https://arxiv.org/abs/2607.19323" },
+      project: "",
+    },
+    {
       slug: "DRO_FE_ML",
       title: "Machine Learning Enables Real-Time Waveform Decomposition for Dual-Readout Calorimetry",
       authors: ["admin", "Q. Liu", "M. T. Lucchini", "J. Gonski", "M. Campajola", "S. Moneta"],
