@@ -1,11 +1,38 @@
-# Liangyu Wu - Academic Website
+# Liangyu Wu — Academic Website
 
-This repository contains the source code for Liangyu Wu's personal academic website, built with Hugo Blox Builder.
+Personal academic website showcasing research interests, publications, projects,
+talks, and professional experience in experimental particle physics.
 
-## About
+**Live site:** [https://liangyu5wu.github.io](https://liangyu5wu.github.io)
 
-A personal academic website showcasing research interests, publications, projects, and professional experience in experimental particle physics.
+## How it works
 
-## Website
+This branch (`site`) is a **zero-build static site** — plain HTML, CSS, and
+vanilla JavaScript, no framework or build step. GitHub Pages serves it directly.
 
-Visit the live website at: [https://liangyu5wu.github.io](https://liangyu5wu.github.io)
+```
+index.html        # single-page app shell (navbar, mount point, footer)
+css/style.css      # all styling; dark/light themes via CSS variables
+js/data.js         # single content source (publications, talks, projects, …)
+js/render.js       # renders sections + hash routing + particle-collision hero
+js/theme.js        # dark/light toggle (persisted in localStorage)
+assets/            # images, icons, avatar, favicon
+uploads/           # PDFs (CV, slides, thesis)
+.nojekyll          # tell GitHub Pages to serve files as-is (skip Jekyll)
+```
+
+## Editing content
+
+Add a publication / talk / project / news item / course by editing the
+corresponding array in `js/data.js`. Drop any images into `assets/content/`
+and reference them by relative path. No rebuild needed — commit and push.
+
+## Local preview
+
+```bash
+python3 -m http.server 8000     # then open http://localhost:8000
+```
+
+## History
+
+The previous Hugo Blox Builder version is preserved on the `main` branch.
