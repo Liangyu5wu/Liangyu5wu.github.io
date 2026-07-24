@@ -184,7 +184,9 @@
       "<div>" +
         "<h1>" + esc(P.name) + (P.nameCn ? ' <span class="name-cn">（' + esc(P.nameCn) + "）</span>" : "") + "</h1>" +
         '<div class="role">' + esc(P.role) + "</div>" +
-        '<div class="org"><a href="' + P.org.url + '" target="_blank" rel="noopener">' + esc(P.org.name) + "</a></div>" +
+        [].concat(P.org).map(function (o) {
+          return '<div class="org"><a href="' + o.url + '" target="_blank" rel="noopener">' + esc(o.name) + "</a></div>";
+        }).join("") +
         '<div class="hero-actions">' +
           '<div class="social-row">' + P.socials.map(function (s) {
             return '<a href="' + s.url + '" title="' + esc(s.label) + '" target="_blank" rel="noopener">' + (ICONS[s.type] || ICONS.external) + "</a>";
@@ -192,6 +194,22 @@
           '<a class="btn" href="' + P.cta.url + '" target="_blank" rel="noopener">' + ICONS.pdf + esc(P.cta.text) + "</a>" +
         "</div>" +
       "</div></div></div>" +
+      /* decorative line-art figure running a dribble combo (crossover / behind-the-back / drive) */
+      '<svg class="baller" viewBox="0 0 175 190" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">' +
+        '<g class="baller-fig">' +
+          '<ellipse class="baller-shadow" cx="70" cy="176" rx="30" ry="4.5" fill="currentColor" stroke="none"/>' +
+          '<path class="baller-leg baller-leg-l" d="M70 94 L54 164"/>' +
+          '<path class="baller-leg baller-leg-r" d="M70 94 L86 164"/>' +
+          '<circle cx="68" cy="24" r="13"/>' +
+          '<path d="M68 37 L70 94"/>' +
+          '<path class="baller-arm baller-arm-fr" d="M68 46 L46 74"/>' +
+          '<path class="baller-arm baller-arm-dr" d="M68 46 L88 66 L104 92"/>' +
+          '<g class="baller-ball">' +
+            '<circle cx="0" cy="0" r="11" fill="currentColor" fill-opacity=".16"/>' +
+            '<path d="M-11 0 h22 M0 -11 v22 M-8 -8 q8 8 0 16 M8 -8 q-8 8 0 16"/>' +
+          "</g>" +
+        "</g>" +
+      "</svg>" +
       '<a class="scroll-cue" href="#about" aria-label="Scroll down"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:28px;height:28px"><path d="M12 5v14M5 12l7 7 7-7"/></svg></a>' +
     "</section>";
 

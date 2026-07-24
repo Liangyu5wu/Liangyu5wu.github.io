@@ -70,6 +70,15 @@
       var f = window.SITE.footer, y = new Date().getFullYear();
       document.getElementById("foot-copy").innerHTML = "© " + y + " " + f.copyright + ".";
     })();
+
+    // baller: at each loop boundary, ~35% chance the next between-legs is a double
+    document.addEventListener("animationiteration", function (e) {
+      var t = e.target;
+      if (t.classList && t.classList.contains("baller-ball")) {
+        var svg = t.closest(".baller");
+        if (svg) svg.classList.toggle("is-double", Math.random() < 0.35);
+      }
+    }, true);
   </script>
 </body>
 </html>

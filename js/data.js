@@ -11,32 +11,37 @@ window.SITE = {
     nameCn: "吴粮宇",
     pronunciation: 'Lee-ahng-yu Woo',
     role: "Physics PhD Candidate",
-    org: { name: "Stanford University · Physics Department", url: "https://physics.stanford.edu" },
+    org: [
+      { name: "Stanford University · Physics Department", url: "https://physics.stanford.edu" },
+      { name: "SLAC National Accelerator Laboratory · FPD Collider Physics", url: "https://atlas.slac.stanford.edu" },
+    ],
     avatar: "assets/media/avatar.jpg",
     tagline: "Hunting in the Invisible World",
     interests: [
-      "Experimental High-energy Physics",
       "Future Colliders",
+      "ML in HEP",
       "Microelectronics",
     ],
     // rendered as HTML
-    about: `Hey! My name is Liangyu Wu (pronounced <i>"Lee-ahng-yu Woo"</i>).
-      I'm a 2nd-year PhD student in the
+    about: `I'm a 2nd-year PhD student in the
       <a href="https://physics.stanford.edu/">Physics Department at Stanford University</a>,
       currently working at SLAC National Accelerator Laboratory's
       <a href="https://atlas.slac.stanford.edu">SLAC ATLAS group</a>.
       One of my favorite things is chatting with researchers from all sorts of
       backgrounds to hear about the cool stuff everyone's working on!`,
     research: [
-      `My research interests primarily focus on experimental particle physics.
-       Currently, I am mainly focused on R&D for detectors in future colliders –
-       particularly on dual-readout calorimeters for future FCC-ee, combined with
-       Geant4 simulations and on-chip machine learning research for front-end readouts.`,
-      `In the ATLAS experiment, I am currently working in the LAr calorimeter on the
-       development of 5D calorimetry. This exciting technology will incorporate more
-       timing information (x, y, z, t, E) to enhance LHC discovery potential.
-       Additionally, I'm conducting the QC test of GBCR (GigaBit Cable Receiver) ASIC,
-       which will be used for data transmission in the upgraded ITk Pixels system at the LHC.`,
+      `My research interests primarily focus on experimental particle physics, spanning three
+       main directions: <b>detector &amp; advanced-algorithm R&D for the FCC-ee</b> — making detectors
+       and detector design more intelligent; <b>AI/ML for HEP experiments</b> — bringing modern
+       learning methods to real-time data processing and boosting new-physics discovery; and
+       <b>anomaly-detection
+       analysis in ATLAS</b> — searching for new-physics signatures with data-driven,
+       model-agnostic techniques.`,
+      `In the ATLAS experiment, I am currently working on three fronts:
+       (1) data-transmission testing for the HL-LHC upgraded ITk Pixels system;
+       (2) the HAXAD anomaly-detection analysis; and
+       (3) LAr-calorimeter timing toward the development of 5D calorimetry, which incorporates
+       timing information (x, y, z, t, E) to enhance the LHC discovery potential.`,
     ],
     cta: { text: "CV for more details", url: "uploads/resume.pdf" },
     inspire: { text: "Find Me on INSPIRE", url: "https://inspirehep.net/authors/2895194" },

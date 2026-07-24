@@ -265,6 +265,224 @@ h1,h2,h3 { line-height: 1.2; font-weight: 700; letter-spacing: -.02em; }
 }
 @keyframes bob { 0%,100%{transform:translate(-50%,0)} 50%{transform:translate(-50%,8px)} }
 
+/* decorative line-art baller: crossover -> between-the-legs -> behind-the-back -> drive */
+.baller {
+  position: absolute; right: max(24px, 4vw); bottom: 40px;
+  width: 148px; height: auto; z-index: 1; pointer-events: none;
+  color: #fff;
+  filter: drop-shadow(0 8px 18px rgba(0,0,0,.45));
+}
+[data-theme="light"] .baller { color: var(--accent); filter: none; opacity: .9; }
+.baller-fig, .baller-ball, .baller-leg, .baller-arm, .baller-shadow { transform-box: view-box; }
+.baller-fig   { animation: bball-drive 6s ease-in-out infinite; }
+.baller-ball  { transform: translate(104px,88px); animation: bball-move 6s linear infinite; }
+.baller-leg   { transform-origin: 70px 94px; }
+.baller-leg-l { animation: bball-leg-l 6s ease-in-out infinite; }
+.baller-leg-r { animation: bball-leg-r 6s ease-in-out infinite; }
+.baller-arm   { transform-origin: 68px 46px; }
+.baller-arm-dr{ animation: bball-arm-dr 6s ease-in-out infinite; }
+.baller-arm-fr{ animation: bball-arm-fr 6s ease-in-out infinite; }
+.baller-shadow{ transform-origin: 70px 176px; animation: bball-shadow 2s ease-in-out infinite; }
+
+/* JS randomly adds .is-double per loop → swap the combo region for a double between-legs */
+.is-double .baller-ball  { animation-name: bball-move-2; }
+.is-double .baller-arm-dr{ animation-name: bball-arm-dr-2; }
+.is-double .baller-arm-fr{ animation-name: bball-arm-fr-2; }
+.is-double .baller-leg-l { animation-name: bball-leg-l-2; }
+.is-double .baller-leg-r { animation-name: bball-leg-r-2; }
+
+/* ball position relative to the (possibly wandering) body, in 175x190 viewBox units.
+   0-23%: quick between-the-legs combo; 23-100%: free dribble while the body wanders. */
+@keyframes bball-move {
+  0%   { transform: translate(104px,88px); }     /* right hand */
+  5%   { transform: translate(105px,152px); }    /* front dribble */
+  10%  { transform: translate(104px,88px); }
+  14%  { transform: translate(72px, 150px); }    /* under the legs — quick flick */
+  17%  { transform: translate(48px, 80px); }     /* straight into the left hand */
+  20%  { transform: translate(74px, 116px); }    /* low behind-the-back return */
+  23%  { transform: translate(104px,88px); }     /* snap back to the right hand (fast) */
+  30%  { transform: translate(104px,152px); }    /* free dribble ... */
+  35%  { transform: translate(104px,90px); }
+  41%  { transform: translate(104px,152px); }
+  46%  { transform: translate(104px,90px); }
+  52%  { transform: translate(104px,152px); }
+  57%  { transform: translate(104px,90px); }
+  63%  { transform: translate(104px,152px); }
+  68%  { transform: translate(104px,90px); }
+  74%  { transform: translate(104px,152px); }
+  79%  { transform: translate(104px,90px); }
+  85%  { transform: translate(104px,152px); }
+  90%  { transform: translate(104px,90px); }
+  95%  { transform: translate(104px,152px); }
+  100% { transform: translate(104px,88px); }
+}
+/* double between-legs: right -> under -> left -> under -> right, then same free dribble */
+@keyframes bball-move-2 {
+  0%   { transform: translate(104px,88px); }
+  4%   { transform: translate(105px,152px); }
+  8%   { transform: translate(104px,88px); }
+  11%  { transform: translate(72px, 150px); }    /* under the legs #1 */
+  14%  { transform: translate(48px, 80px); }     /* left hand */
+  17%  { transform: translate(72px, 150px); }    /* under the legs #2 */
+  20%  { transform: translate(104px,88px); }     /* back to right hand */
+  30%  { transform: translate(104px,152px); }
+  35%  { transform: translate(104px,90px); }
+  41%  { transform: translate(104px,152px); }
+  46%  { transform: translate(104px,90px); }
+  52%  { transform: translate(104px,152px); }
+  57%  { transform: translate(104px,90px); }
+  63%  { transform: translate(104px,152px); }
+  68%  { transform: translate(104px,90px); }
+  74%  { transform: translate(104px,152px); }
+  79%  { transform: translate(104px,90px); }
+  85%  { transform: translate(104px,152px); }
+  90%  { transform: translate(104px,90px); }
+  95%  { transform: translate(104px,152px); }
+  100% { transform: translate(104px,88px); }
+}
+/* body wanders quickly back and forth during the free-dribble stretch */
+@keyframes bball-drive {
+  0%,23% { transform: translateX(0); }
+  33%    { transform: translateX(18px); }
+  42%    { transform: translateX(-16px); }
+  51%    { transform: translateX(18px); }
+  60%    { transform: translateX(-18px); }
+  69%    { transform: translateX(16px); }
+  78%    { transform: translateX(-18px); }
+  87%    { transform: translateX(14px); }
+  94%    { transform: translateX(-8px); }
+  100%   { transform: translateX(0); }
+}
+@keyframes bball-leg-l {
+  0%,10% { transform: rotate(0); }
+  14%    { transform: rotate(9deg); }    /* widen stance for between-legs */
+  19%    { transform: rotate(0); }
+  33%    { transform: rotate(-12deg); }  /* brisk stride while wandering */
+  42%    { transform: rotate(12deg); }
+  51%    { transform: rotate(-12deg); }
+  60%    { transform: rotate(12deg); }
+  69%    { transform: rotate(-12deg); }
+  78%    { transform: rotate(12deg); }
+  87%    { transform: rotate(-10deg); }
+  94%    { transform: rotate(8deg); }
+  100%   { transform: rotate(0); }
+}
+@keyframes bball-leg-r {
+  0%,10% { transform: rotate(0); }
+  14%    { transform: rotate(-9deg); }
+  19%    { transform: rotate(0); }
+  33%    { transform: rotate(12deg); }
+  42%    { transform: rotate(-12deg); }
+  51%    { transform: rotate(12deg); }
+  60%    { transform: rotate(-12deg); }
+  69%    { transform: rotate(12deg); }
+  78%    { transform: rotate(-12deg); }
+  87%    { transform: rotate(10deg); }
+  94%    { transform: rotate(-8deg); }
+  100%   { transform: rotate(0); }
+}
+/* double crossover: widen the stance twice */
+@keyframes bball-leg-l-2 {
+  0%,6%  { transform: rotate(0); }
+  11%    { transform: rotate(9deg); }
+  14%    { transform: rotate(0); }
+  17%    { transform: rotate(9deg); }
+  20%    { transform: rotate(0); }
+  33%    { transform: rotate(-12deg); }
+  42%    { transform: rotate(12deg); }
+  51%    { transform: rotate(-12deg); }
+  60%    { transform: rotate(12deg); }
+  69%    { transform: rotate(-12deg); }
+  78%    { transform: rotate(12deg); }
+  87%    { transform: rotate(-10deg); }
+  94%    { transform: rotate(8deg); }
+  100%   { transform: rotate(0); }
+}
+@keyframes bball-leg-r-2 {
+  0%,6%  { transform: rotate(0); }
+  11%    { transform: rotate(-9deg); }
+  14%    { transform: rotate(0); }
+  17%    { transform: rotate(-9deg); }
+  20%    { transform: rotate(0); }
+  33%    { transform: rotate(12deg); }
+  42%    { transform: rotate(-12deg); }
+  51%    { transform: rotate(12deg); }
+  60%    { transform: rotate(-12deg); }
+  69%    { transform: rotate(12deg); }
+  78%    { transform: rotate(-12deg); }
+  87%    { transform: rotate(10deg); }
+  94%    { transform: rotate(-8deg); }
+  100%   { transform: rotate(0); }
+}
+@keyframes bball-arm-dr {
+  0%   { transform: rotate(0); }
+  5%   { transform: rotate(8deg); }
+  10%  { transform: rotate(0); }
+  14%  { transform: rotate(30deg); }     /* push the ball down under the legs */
+  17%  { transform: rotate(12deg); }     /* hand off to the left */
+  20%  { transform: rotate(4deg); }
+  23%  { transform: rotate(-2deg); }     /* catch on the right */
+  30%  { transform: rotate(10deg); }     /* small pushes while free-dribbling */
+  41%  { transform: rotate(0); }
+  52%  { transform: rotate(10deg); }
+  63%  { transform: rotate(0); }
+  74%  { transform: rotate(10deg); }
+  85%  { transform: rotate(0); }
+  95%  { transform: rotate(8deg); }
+  100% { transform: rotate(0); }
+}
+@keyframes bball-arm-dr-2 {
+  0%   { transform: rotate(0); }
+  4%   { transform: rotate(8deg); }
+  8%   { transform: rotate(0); }
+  11%  { transform: rotate(30deg); }     /* push under #1 */
+  14%  { transform: rotate(12deg); }     /* hand off to the left */
+  17%  { transform: rotate(6deg); }
+  20%  { transform: rotate(-2deg); }     /* catch on the right after #2 */
+  30%  { transform: rotate(10deg); }
+  41%  { transform: rotate(0); }
+  52%  { transform: rotate(10deg); }
+  63%  { transform: rotate(0); }
+  74%  { transform: rotate(10deg); }
+  85%  { transform: rotate(0); }
+  95%  { transform: rotate(8deg); }
+  100% { transform: rotate(0); }
+}
+@keyframes bball-arm-fr {
+  0%   { transform: rotate(0); }
+  11%  { transform: rotate(-8deg); }
+  17%  { transform: rotate(4deg); }      /* receive between-the-legs pass */
+  20%  { transform: rotate(20deg); }     /* send it behind the back */
+  23%  { transform: rotate(6deg); }
+  30%  { transform: rotate(0); }
+  42%  { transform: rotate(-10deg); }    /* counter-swing while walking */
+  51%  { transform: rotate(6deg); }
+  60%  { transform: rotate(-10deg); }
+  69%  { transform: rotate(6deg); }
+  78%  { transform: rotate(-10deg); }
+  87%  { transform: rotate(5deg); }
+  100% { transform: rotate(0); }
+}
+@keyframes bball-arm-fr-2 {
+  0%   { transform: rotate(0); }
+  9%   { transform: rotate(-8deg); }
+  14%  { transform: rotate(4deg); }      /* receive pass after #1 */
+  17%  { transform: rotate(26deg); }     /* push under #2 across to the right */
+  20%  { transform: rotate(8deg); }
+  30%  { transform: rotate(0); }
+  42%  { transform: rotate(-10deg); }
+  51%  { transform: rotate(6deg); }
+  60%  { transform: rotate(-10deg); }
+  69%  { transform: rotate(6deg); }
+  78%  { transform: rotate(-10deg); }
+  87%  { transform: rotate(5deg); }
+  100% { transform: rotate(0); }
+}
+@keyframes bball-shadow {
+  0%,100% { transform: scaleX(1);  opacity: .28; }
+  50%     { transform: scaleX(.88); opacity: .34; }
+}
+
 /* =============================================================================
    LIGHT MODE: no background photos. Hero + bg-sections use the plain light
    theme, so all the white-on-photo styling is re-colored for a white backdrop.
@@ -537,6 +755,7 @@ a.chip-link:hover { background: var(--accent); color: #fff; }
   .hero-actions { justify-content: center; }
   .resume-grid { grid-template-columns: 1fr; gap: 40px; }
   .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .baller { display: none; }
 }
 
 @media (max-width: 720px) {
@@ -563,6 +782,7 @@ a.chip-link:hover { background: var(--accent); color: #fff; }
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
   .scroll-cue { animation: none; }
+  .baller-fig, .baller-ball, .baller-leg, .baller-arm, .baller-shadow { animation: none; }
   [data-theme="dark"] .hero::before,
   [data-theme="dark"] .bg-section::before { background-attachment: scroll; }
 }
