@@ -222,7 +222,8 @@ h1,h2,h3 { line-height: 1.2; font-weight: 700; letter-spacing: -.02em; }
   white-space: nowrap;
 }
 .hero .role { font-size: 1.25rem; color: var(--gold); font-weight: 600; margin-bottom: 6px; }
-.hero .org { color: rgba(255,255,255,.82); font-size: 1.02rem; margin-bottom: 22px; }
+.hero .org { color: rgba(255,255,255,.82); font-size: 1.02rem; line-height: 1.5; margin-bottom: 2px; }
+.hero .org:last-of-type { margin-bottom: 22px; }
 .hero .org a { color: rgba(255,255,255,.92); }
 .hero .tagline {
   color: rgba(255,255,255,.7); font-style: italic; font-size: 1.05rem;
@@ -520,6 +521,14 @@ h1,h2,h3 { line-height: 1.2; font-weight: 700; letter-spacing: -.02em; }
 /* --------------------------------------------------------------- about/research */
 .prose p { margin-bottom: 1rem; color: inherit; }
 .prose p:last-child { margin-bottom: 0; }
+/* itemized research points */
+.research-list { list-style: none; margin: 4px 0 1rem; padding: 0; display: grid; gap: 10px; }
+.prose .research-list:last-child { margin-bottom: 0; }
+.research-list li { position: relative; padding-left: 24px; color: inherit; line-height: 1.5; }
+.research-list li::before {
+  content: ""; position: absolute; left: 3px; top: .5em;
+  width: 8px; height: 8px; border-radius: 50%; background: var(--accent);
+}
 /* inline links in the About / Research prose use gold, not blue */
 .prose a { color: var(--gold); text-decoration: none; border-bottom: 1px solid rgba(255,223,0,.35); }
 .prose a:hover { color: var(--gold); border-bottom-color: var(--gold); }

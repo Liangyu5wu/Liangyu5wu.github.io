@@ -219,7 +219,14 @@
       '<div class="about-wrap reveal">' +
         '<div class="prose"><p>' + P.about + "</p></div>" +
         '<div><h3 style="margin:14px 0 6px">Research Interests</h3>' +
-        '<div class="prose">' + P.research.map(function (r){return "<p>"+r+"</p>";}).join("") + "</div>" +
+        '<div class="prose">' + P.research.map(function (r){
+          if (typeof r === "string") return "<p>" + r + "</p>";
+          var lead = r.text ? "<p>" + r.text + "</p>" : "";
+          var list = (r.items && r.items.length)
+            ? '<ul class="research-list">' + r.items.map(function (i){ return "<li>" + i + "</li>"; }).join("") + "</ul>"
+            : "";
+          return lead + list;
+        }).join("") + "</div>" +
         '<div class="interests">' + P.interests.map(function (i){return '<span class="interest-chip">'+esc(i)+"</span>";}).join("") + "</div></div>" +
       "</div>");
 

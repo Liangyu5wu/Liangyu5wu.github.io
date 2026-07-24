@@ -30,18 +30,27 @@ window.SITE = {
       One of my favorite things is chatting with researchers from all sorts of
       backgrounds to hear about the cool stuff everyone's working on!`,
     research: [
-      `My research interests primarily focus on experimental particle physics, spanning three
-       main directions: <b>detector &amp; advanced-algorithm R&D for the FCC-ee</b> — making detectors
-       and detector design more intelligent; <b>AI/ML for HEP experiments</b> — bringing modern
-       learning methods to real-time data processing and boosting new-physics discovery; and
-       <b>anomaly-detection
-       analysis in ATLAS</b> — searching for new-physics signatures with data-driven,
-       model-agnostic techniques.`,
-      `In the ATLAS experiment, I am currently working on three fronts:
-       (1) data-transmission testing for the HL-LHC upgraded ITk Pixels system;
-       (2) the HAXAD anomaly-detection analysis; and
-       (3) LAr-calorimeter timing toward the development of 5D calorimetry, which incorporates
-       timing information (x, y, z, t, E) to enhance the LHC discovery potential.`,
+      {
+        text: `My research interests primarily focus on experimental particle physics,
+               spanning three main directions:`,
+        items: [
+          `<b>Detector &amp; advanced-algorithm R&D for the FCC-ee</b> — making detectors and
+           detector design more intelligent.`,
+          `<b>AI/ML for HEP experiments</b> — bringing modern learning methods to real-time
+           data processing and boosting new-physics discovery.`,
+          `<b>Anomaly-detection analysis in ATLAS</b> — searching for new-physics signatures
+           with data-driven, model-agnostic techniques.`,
+        ],
+      },
+      {
+        text: `In the ATLAS experiment, I am currently working on three fronts:`,
+        items: [
+          `Data-transmission testing for the HL-LHC upgraded ITk Pixels system.`,
+          `The HAXAD anomaly-detection analysis.`,
+          `LAr-calorimeter timing toward the development of 5D calorimetry, which incorporates
+           timing information (x, y, z, t, E) to enhance the LHC discovery potential.`,
+        ],
+      },
     ],
     cta: { text: "CV for more details", url: "uploads/resume.pdf" },
     inspire: { text: "Find Me on INSPIRE", url: "https://inspirehep.net/authors/2895194" },
