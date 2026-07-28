@@ -201,6 +201,12 @@
           '<path class="baller-leg baller-leg-l" d="M70 94 L54 164"/>' +
           '<path class="baller-leg baller-leg-r" d="M70 94 L86 164"/>' +
           '<circle cx="68" cy="24" r="13"/>' +
+          /* headphones: band over the top + an ear cup on each side */
+          '<g class="baller-cans" stroke-width="3">' +
+            '<path d="M52 24 A16 16 0 0 1 84 24" fill="none"/>' +
+            '<rect x="48.5" y="18" width="7" height="12" rx="3.5" fill="currentColor" fill-opacity=".16"/>' +
+            '<rect x="80.5" y="18" width="7" height="12" rx="3.5" fill="currentColor" fill-opacity=".16"/>' +
+          "</g>" +
           '<path d="M68 37 L70 94"/>' +
           '<path class="baller-arm baller-arm-fr" d="M68 46 L46 74"/>' +
           '<path class="baller-arm baller-arm-dr" d="M68 46 L88 66 L104 92"/>' +
