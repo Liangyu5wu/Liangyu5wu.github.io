@@ -176,6 +176,23 @@ window.SITE = {
   // authors: use "admin" to mark self (rendered bold, no link)
   publications: [
     {
+      slug: "NEXUS_FM",
+      title: "A Lightweight Foundation Model for Collider Physics with Multi-Domain Adaptation",
+      authors: ["admin", "Q. Liu", "A. Yue", "J. Gonski"],
+      date: "2026-07-29",
+      venue: "arXiv",
+      type: "arXiv",
+      featured: true,
+      tags: ["Machine Learning", "Foundation Model"],
+      image: "assets/content/NEXUS_FM.png",
+      caption: "Test accuracy vs. training data size for 20-class SM-process classification",
+      summary: "NEXUS is a ~3M-parameter fully connected autoencoder pre-trained without supervision on large-scale LHC track data, improving downstream collider tasks in the low-label regime and transferring to gravitational waves, flood forecasting, and neural activity.",
+      abstract: "We present a lightweight approach to foundation modeling (NEXUS) that leverages pre-trained learning from collider physics data towards out-of-domain tasks in other scientific datasets, using a fully connected autoencoder model with approximately 3 million parameters. The model pre-trains with no supervision over a large-scale collision dataset from the Large Hadron Collider modeled by charged particle track features. Downstream tasks for collider analyses, such as kinematic regression and event classification, are developed on pre-trained model weights and achieve improved accuracy with only small labeled datasets when compared to equivalent architectures trained from scratch. The benefits of pre-training are additionally investigated through latent space interpretation and application to other domains, including gravitational waves, flood forecasting, and neural activity. Furthermore, the relative computational simplicity of NEXUS is demonstrated compared to transformer approaches at comparable scale, opening the door to power-efficient inference and real-time or edge applications of foundation models in scientific experiments.",
+      links: { pdf: "https://arxiv.org/pdf/2607.27501", external: "https://arxiv.org/abs/2607.27501" },
+      project: "HEP_foundation",
+      body: `This work asks whether the benefits of foundation modeling can be realized at a scale compatible with the computational budgets of scientific experiments. Rather than scaling up transformers, NEXUS uses a ~3 million parameter fully connected autoencoder pre-trained with no supervision on large-scale LHC collision data described by charged particle track features. Downstream collider tasks — kinematic regression and event classification — are built on the frozen or fine-tuned backbone and outperform equivalent architectures trained from scratch when labeled data is scarce, the regime that matters most for new analyses. Latent space studies clarify what the pre-training actually learns, and transfer experiments to gravitational waves, flood forecasting, and neural activity show that the representation is not narrowly collider-specific. The comparatively low computational cost relative to transformers at similar scale makes power-efficient inference and real-time or edge deployment of foundation models in scientific experiments a realistic prospect.`,
+    },
+    {
       slug: "HAXAD_anomaly",
       title: "Towards anomaly detection searches for new physics signatures including Higgs bosons with weakly supervised machine learning",
       authors: ["C. L. Cheng", "J. Gonski", "R. Li", "Q. Liu", "B. Nachman", "D. Noll", "J. K. Romman", "admin"],
