@@ -52,7 +52,7 @@ window.SITE = {
         ],
       },
     ],
-    cta: { text: "CV for more details", url: "uploads/resume.pdf" },
+    cta: { text: "CV for more details", url: "uploads/CV_Liangyu.pdf" },
     inspire: { text: "Find Me on INSPIRE", url: "https://inspirehep.net/authors/2895194" },
     socials: [
       { type: "email",    label: "E-mail Me", url: "mailto:liangyu5@stanford.edu" },
