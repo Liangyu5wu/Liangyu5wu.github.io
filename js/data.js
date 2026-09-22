@@ -357,11 +357,9 @@ window.SITE = {
         <p><em>Extract C&amp;S components from waveform samples</em></p>
         <figure><img src="assets/content/On-chip-ml-rising.png" alt="Prediction of the C&S components"><figcaption>Prediction of the C&amp;S components</figcaption></figure>
         <p>Github Link: <a href="https://github.com/Liangyu5wu/On-chip_ML_DRO">Models &amp; Plotting</a></p>
-        <details><summary>Milestones</summary><ol><li>Developed and evaluated algorithms for e- testbeam data</li></ol></details>
         <h3>Drift Chamber</h3>
         <p><em>Predict ionization cluster numbers (dN/dx) for PID</em></p>
         <figure><img src="assets/content/On-chip-ml-peak.png" alt="Distribution of Electrons in a DCH Cell"><figcaption>Distribution of Electrons in a DCH Cell</figcaption></figure>
-        <details><summary>Milestones</summary><ol><li>Developed and evaluated algorithms for a Garfield++ simulation dataset</li></ol></details>
         <h2>eFPGA Co-design</h2>
         <p><strong>Design eFPGA chips with SLAC Technology Innovation Directorate (TID).</strong></p>`,
     },
@@ -373,8 +371,7 @@ window.SITE = {
       tags: ["Machine Learning"],
       image: "assets/content/HEP_foundation.png",
       body: `
-        <p><strong>How to train a foundation model for high-energy physics that can provide benefit in various downstream applications?</strong></p>
-        <details><summary>Recent Tasks</summary><ol><li>Get familiar with the current work flow</li></ol></details>`,
+        <p><strong>How to train a foundation model for high-energy physics that can provide benefit in various downstream applications?</strong></p>`,
     },
     {
       slug: "GBCR",
@@ -398,12 +395,7 @@ window.SITE = {
           <li>Retiming Mode Function Test</li>
           <li>Retiming Mode &amp; Voted Mode Correlation Test</li>
           <li>RX 5 Channel Retiming Mode Test</li>
-        </ol>
-        <details><summary>Milestones</summary><ol>
-          <li>Developed the GBCR software gitlab repo.</li>
-          <li>QC'ed several GBCR3 chips for SEU test.</li>
-          <li>QC test procedures.</li>
-        </ol></details>`,
+        </ol>`,
     },
     {
       slug: "5D_calo",
@@ -422,11 +414,7 @@ window.SITE = {
         <h3>Incident Angles Study</h3>
         <p>Explore how to maximally utilize the fibers in our calorimeter.</p>
         <h3>Energy Reconstruction &amp; Particle ID with ML</h3>
-        <p>Incorporating more timing information and shower structure information to further improve the energy resolution in the calorimeter.</p>
-        <details><summary>Recent Tasks</summary><ol>
-          <li>Follow the Auto-encoder study.</li>
-          <li>CNN for energy regression with dSiPM-level pixels.</li>
-        </ol></details>`,
+        <p>Incorporating more timing information and shower structure information to further improve the energy resolution in the calorimeter.</p>`,
     },
     {
       slug: "Vertex_t0",
@@ -441,12 +429,7 @@ window.SITE = {
         <p><strong>Current ATLAS LAr Calorimeter has good timing resolution of O(100 ps) or better at best cells. (HGTD can reach ~30 ps)</strong></p>
         <p><strong>Can we use LAr cells to achieve O(100 ps) resolution for complex objects?</strong></p>
         <p>Github Link: <a href="https://github.com/Liangyu5wu/Vertex0">Data processing</a></p>
-        <figure><img src="assets/content/Vertex_t0-lar.png" alt="ATLAS LAr Calorimeter"><figcaption>ATLAS LAr Calorimeter</figcaption></figure>
-        <details><summary>Recent Tasks</summary><ol>
-          <li>ML implementation</li>
-          <li>US-ATLAS Workshop Slides</li>
-          <li>Further distinguishing the b-jets and light-quarks (and gluons).</li>
-        </ol></details>`,
+        <figure><img src="assets/content/Vertex_t0-lar.png" alt="ATLAS LAr Calorimeter"><figcaption>ATLAS LAr Calorimeter</figcaption></figure>`,
     },
   ],
 
