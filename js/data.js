@@ -182,7 +182,7 @@ window.SITE = {
       date: "2026-09-20",
       venue: "arXiv",
       type: "arXiv",
-      featured: true,
+      featured: false,
       tags: ["Machine Learning", "Foundation Model", "Detector R&D"],
       image: "assets/content/TimesFM_edge.png",
       caption: "K/\u03c0 separation power vs. training-label fraction for the fine-tuned TimesFM teacher, its MLP students, and the FPGA-compressed model",
