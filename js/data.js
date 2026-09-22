@@ -23,7 +23,7 @@ window.SITE = {
       "Microelectronics",
     ],
     // rendered as HTML
-    about: `I'm a 2nd-year PhD student in the
+    about: `I'm a 3rd-year PhD candidate in the
       <a href="https://physics.stanford.edu/">Physics Department at Stanford University</a>,
       currently working at SLAC National Accelerator Laboratory's
       <a href="https://atlas.slac.stanford.edu">SLAC ATLAS group</a>.
