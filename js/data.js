@@ -48,7 +48,7 @@ window.SITE = {
           `Data-transmission testing for the HL-LHC upgraded ITk Pixels system.`,
           `The HAXAD anomaly-detection analysis.`,
           `LAr-calorimeter timing toward the development of 5D calorimetry, which incorporates
-           timing information (x, y, z, t, E) to enhance the LHC discovery potential.`,
+           timing information (x, y, z, t, E) to enhance the HL-LHC discovery potential.`,
         ],
       },
     ],
