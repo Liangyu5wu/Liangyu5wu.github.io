@@ -176,6 +176,23 @@ window.SITE = {
   // authors: use "admin" to mark self (rendered bold, no link)
   publications: [
     {
+      slug: "OmniLearned_distill",
+      title: "Towards Foundation Models on Hardware Accelerators for Particle Physics",
+      authors: ["M. Benyas", "J. Gonski", "Q. Liu", "P. A. May", "V. Mikuni", "B. Nachman", "T. Wamorkar", "admin"],
+      date: "2026-09-22",
+      venue: "arXiv",
+      type: "arXiv",
+      featured: false,
+      tags: ["Machine Learning", "Foundation Model", "Jet Tagging"],
+      image: "assets/content/OmniLearned_distill.png",
+      caption: "Background rejection versus signal efficiency on the 404k-jet test split, zoomed in on the 30% and 50% signal-efficiency operating points",
+      summary: "Knowledge distillation transfers what the OmniLearned foundation model learned about top quark jet tagging into an attention-free Deep Sets student small enough for hardware accelerators, with the largest gains in background rejection at low signal efficiency \u2014 the trigger-relevant regime.",
+      abstract: "Bandwidth constraints require many particle physics experiments to make real-time decisions on custom hardware or firmware running simplified algorithms, unlike offline analysis, where latency is usually not a limiting factor. For example, for particle jet tagging at colliders, state-of-the-art performance is achieved by foundation models with hundreds of millions of parameters pre-trained with billions of jets. We use knowledge distillation to transfer what such models have learned into efficient networks towards deployment in hardware accelerators. The teacher is the OmniLearned foundation model fine-tuned on top quark jet tagging; the student is an attention-free Deep Sets network. We demonstrate three ways the student\u2019s performance improves: adding a message-passing layer to the Deep Sets architecture, training on the teacher\u2019s soft labels rather than on ground-truth labels alone, and distilling from a pretrained teacher rather than from the same architecture trained from scratch. In each case the gain is largest in the background rejection at low signal efficiency, the regime that is most relevant for a trigger.",
+      links: { pdf: "https://arxiv.org/pdf/2609.26899", external: "https://arxiv.org/abs/2609.26899" },
+      project: "HEP_foundation",
+      body: `Real-time decisions in collider experiments are made on custom hardware or firmware with tight latency and bandwidth budgets, while the best jet tagging performance comes from foundation models with hundreds of millions of parameters pre-trained on billions of jets. This work bridges that gap with knowledge distillation: the teacher is the OmniLearned foundation model fine-tuned on top quark jet tagging, and the student is an attention-free Deep Sets network of the kind that can plausibly be deployed on a hardware accelerator. Three separate ingredients are shown to improve the student \u2014 a message-passing layer added to the Deep Sets architecture, training on the teacher\u2019s soft labels instead of ground-truth labels alone, and distilling from a pretrained rather than a from-scratch teacher. In every case the improvement is concentrated in background rejection at low signal efficiency, which is precisely the operating regime a trigger cares about.`,
+    },
+    {
       slug: "TimesFM_edge",
       title: "Leveraging Industrial Foundation Models at the Edge of Particle Physics Detectors via Distillation Learning and Hardware Co-design",
       authors: ["G. Ancone", "Q. Liu", "admin", "J. Gonski"],
