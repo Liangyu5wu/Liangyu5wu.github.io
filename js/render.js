@@ -340,11 +340,14 @@
     var body = S.projectGroups.map(function (g) {
       var projs = S.projects.filter(function (p) { return p.group === g.name; });
       if (!projs.length) return "";
-      return '<h3 class="tag-group-head proj-group-head">' +
-        [].concat(g.logo || []).filter(Boolean).map(function (src) {
-          return '<img class="proj-group-logo" src="' + src + '" alt="">';
-        }).join("") + esc(g.name) + "</h3>" +
-        '<div class="grid grid-3">' + projs.map(projectCard).join("") + "</div>";
+      var logos = [].concat(g.logo || []).filter(Boolean).map(function (src) {
+        return '<img class="proj-group-logo" src="' + src + '" alt="">';
+      }).join("");
+      return '<h3 class="tag-group-head proj-group-head">' + esc(g.name) + "</h3>" +
+        '<div class="proj-group">' +
+          (logos ? '<div class="proj-group-logos reveal">' + logos + "</div>" : "") +
+          '<div class="grid grid-3">' + projs.map(projectCard).join("") + "</div>" +
+        "</div>";
     }).join("");
     listPage("Projects", ["Smarter Detectors & Algorithms for Particle Physics", "Now and Next"],
       body, S.backgrounds.projects || S.backgrounds.research);
