@@ -590,6 +590,8 @@ a.chip-link:hover { background: var(--accent); color: #fff; }
   margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border);
 }
 .tag-group-head:first-child { margin-top: 8px; }
+/* larger section headings on the Projects page */
+.proj-group-head { font-size: 1rem; margin-top: 44px; }
 
 .card-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
 .pill-link {

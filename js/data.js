@@ -363,17 +363,16 @@ window.SITE = {
   // Publications/talks link here via `project: "<slug>"` (or an array of slugs);
   // each project page lists its linked publications and talks automatically.
   projectGroups: [
-    "Electronics & Hardware",
-    "AI/ML for HEP",
-    "ATLAS at the HL-LHC",
     "Future Colliders",
+    "Machine Learning, from Chips to Foundation Models",
+    "ATLAS at the HL-LHC",
     "Theory & Phenomenology",
   ],
 
   projects: [
     {
       slug: "On-chip-ml",
-      group: "Electronics & Hardware",
+      group: "Machine Learning, from Chips to Foundation Models",
       title: "eFPGA Technology",
       summary: "Machine Learning At-source",
       date: "2025-10-10",
@@ -395,7 +394,7 @@ window.SITE = {
     },
     {
       slug: "HEP_foundation",
-      group: "AI/ML for HEP",
+      group: "Machine Learning, from Chips to Foundation Models",
       title: "Foundation Model for HEP",
       summary: "Unsupervised Backbone Model",
       date: "2025-07-11",
@@ -410,7 +409,7 @@ window.SITE = {
     },
     {
       slug: "anomaly_detection",
-      group: "AI/ML for HEP",
+      group: "Machine Learning, from Chips to Foundation Models",
       title: "Anomaly Detection in HEP Experiments",
       summary: "Model-agnostic Searches for New Physics",
       date: "2026-07-21",

@@ -319,11 +319,12 @@
   }
 
   /* ============================================================= LIST PAGES */
-  function listPage(kicker, title, itemsHtml, bg) {
+  function listPage(kicker, title, itemsHtml, bg, sub) {
     var attrs = bg ? ' bg-section" data-bg="' + bg : "";
     app.innerHTML = '<div class="page' + attrs + '"><div class="container">' +
       '<a class="back-link" href="#/">' + ICONS.back + "Home</a>" +
-      '<div class="section-head"><span class="kicker">' + esc(kicker) + '</span><h2>' + esc(title) + "</h2></div>" +
+      '<div class="section-head"><span class="kicker">' + esc(kicker) + '</span><h2>' + esc(title) + "</h2>" +
+      (sub ? "<p>" + esc(sub) + "</p>" : "") + "</div>" +
       itemsHtml + "</div></div>";
     afterRender(false);
   }
@@ -338,10 +339,11 @@
     var body = S.projectGroups.map(function (g) {
       var projs = S.projects.filter(function (p) { return p.group === g; });
       if (!projs.length) return "";
-      return '<h3 class="tag-group-head">' + esc(g) + "</h3>" +
+      return '<h3 class="tag-group-head proj-group-head">' + esc(g) + "</h3>" +
         '<div class="grid grid-3">' + projs.map(projectCard).join("") + "</div>";
     }).join("");
-    listPage("Projects", "All Projects", body, S.backgrounds.projects || S.backgrounds.research);
+    listPage("Projects", "Smarter Detectors & Algorithms for Particle Physics, Now and Next",
+      body, S.backgrounds.projects || S.backgrounds.research);
   }
   function renderTalkList() {
     listPage("Talks", "All Talks & Presentations",
