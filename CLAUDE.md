@@ -4,71 +4,56 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a personal academic website built with Hugo Blox Builder (formerly Hugo Academic theme), deployed on Netlify. The site showcases Liangyu Wu's academic profile, publications, projects, and research interests in experimental particle physics.
+Personal academic website of Liangyu Wu (experimental particle physics, Stanford / SLAC).
+Live at https://liangyu5wu.github.io.
 
-## Development Commands
+The working branch `site` is a **zero-build static site** — plain HTML, CSS and vanilla
+JavaScript, served directly by GitHub Pages. The old Hugo Blox Builder version is preserved
+on the `main` branch; do not edit Hugo files there unless explicitly asked.
 
-### Build and Development
-- **Local development**: `hugo server` (serves at http://localhost:1313)
-- **Production build**: `hugo --gc --minify`
-- **Build with search**: `hugo --gc --minify && npx pagefind --source 'public'`
+## Development
 
-### Hugo Version
-- Hugo version: 0.136.5 (specified in netlify.toml and hugoblox.yaml)
-- Go version: 1.19+ (from go.mod)
+- **Local preview**: `python3 -m http.server 8000`, then open http://localhost:8000
+- **No build step**: edit, commit, push to `site`.
+- **Sanity check after edits**: `node --check js/render.js` and load `js/data.js` in node
+  (`global.window={}; require("./js/data.js")`) to catch syntax errors and broken slugs.
 
-## Site Architecture
+## Structure
 
-### Configuration Structure
-- **Main config**: `config/_default/hugo.yaml` - core Hugo settings
-- **Site parameters**: `config/_default/params.yaml` - appearance, SEO, header/footer
-- **Navigation**: `config/_default/menus.yaml`
-- **Modules**: `config/_default/module.yaml` - Hugo Blox imports
-- **Languages**: `config/_default/languages.yaml`
-
-### Content Organization
 ```
-content/
-├── _index.md              # Homepage with landing sections
-├── authors/admin/         # Author profile (main user)
-├── publication/           # Academic publications
-├── project/              # Research projects
-├── event/                # Talks and presentations
-├── post/                 # News/blog posts
-├── teaching/             # Teaching materials
-├── experience.md         # Work experience page
-└── publications.md       # Publications listing page
+index.html        # single-page app shell (navbar, #app mount point, footer)
+css/style.css     # all styling; dark/light themes via CSS variables
+js/data.js        # single content source: window.SITE = { profile, education, work,
+                  #   publications, projectGroups, projects, talks, news, teaching, ... }
+js/render.js      # rendering + hash routing + particle-collision hero
+js/theme.js       # dark/light toggle (localStorage)
+assets/content/   # images for publications, projects, talks, news, teaching
+assets/media/     # avatar, favicon, section backgrounds, icons
+uploads/          # PDFs (CV, slides, thesis)
 ```
 
-### Theme and Styling
-- Uses Hugo Blox Builder modules for layout blocks
-- Tailwind CSS integration via `blox-tailwind` module
-- Custom icons in `assets/media/icons/custom/`
-- Color theme: blue (configurable in params.yaml)
+## Routing (hash-based, in `render.js`)
 
-### Key Features
-- **Landing page blocks**: Biography, publications, talks, news sections
-- **Academic focus**: Publications with citations, research projects, CV
-- **Responsive design**: Mobile-friendly layout
-- **Search functionality**: Pagefind integration for site search
-- **SEO optimized**: Structured data for academic profiles
+`#/` home · `#about` etc. home anchors · `#/publications`, `#/publication/<slug>` ·
+`#/projects`, `#/project/<slug>` · `#/talks`, `#/talk/<slug>` · `#/teaching[/<slug>]` ·
+`#/news[/<slug>]` · `#/cv` · `#/tag/<tag>`
 
-### Content Types
-- **Publications**: BibTeX citations, featured flags, PDF links
-- **Projects**: Research descriptions with images and external links
-- **Events**: Conference talks and presentations
-- **Posts**: News updates and blog content
-- **Authors**: Researcher profiles with detailed academic info
+## Content Conventions (`js/data.js`)
 
-### Deployment
-- **Platform**: Netlify
-- **Build command**: `hugo --gc --minify -b $URL && npx pagefind --source 'public'`
-- **Publish directory**: `public`
-- **Branch**: main (auto-deploy from GitHub)
+- Every item has a unique `slug`; detail pages are looked up by slug.
+- Publication `authors`: use `"admin"` for Liangyu (rendered bold).
+- `body` / `about` fields are raw HTML strings; `summary` / `abstract` are escaped text.
+- Images go in `assets/content/` and are referenced by relative path.
+- `tags` are clickable and aggregate across all content types on `#/tag/<tag>`.
 
-## Important Files to Know
-- `content/_index.md`: Homepage layout and sections
-- `content/authors/admin/_index.md`: Main author profile with education, work, skills
-- `static/uploads/`: PDF files (CV, papers, presentations)
-- `netlify.toml`: Deployment configuration
-- `hugoblox.yaml`: Hugo version specification for builds
+### Projects
+
+- `projectGroups` sets the section order on the Projects page; each project has a `group`
+  that must match one of them. Within a group, projects appear in array order.
+- Publications and talks link to projects via `project: "<slug>"` or an array of slugs.
+  Project detail pages list linked publications/talks automatically, and pub/talk pages show
+  a "Related project" pill per linked project.
+- When renaming or merging a project slug, update every `project:` reference and add the
+  old slug to `PROJECT_ALIASES` in `render.js` so previously shared links keep working.
+- Profile `research` text and `work` bullets describe projects in prose — keep them in sync
+  when projects change meaningfully.

@@ -240,7 +240,7 @@ window.SITE = {
       summary: "Extends the Higgs And X Anomaly Detection (HAXAD) strategy — ML feature embedding, background estimation, and weakly supervised classification — toward application on real collider data, with new embeddings, an inference framework for cross-section limits, and broader signal coverage.",
       abstract: "The Higgs boson, with its universal coupling to mass, provides a broadly applicable portal to sectors beyond the Standard Model and is therefore a natural anchor for anomaly detection (AD) at collider experiments. The Higgs And X Anomaly Detection (HAXAD) strategy offers a principled approach to searching for such anomalies occurring in association with a Higgs boson by combining machine-learning-based feature embedding, background estimation, and weakly supervised classification. This work extends the previous HAXAD approach towards the level of maturity required for application to recorded collider data. A major addition is the introduction and comparison of two new embedding strategies, which in turn shape the background estimation and classification. In addition, a new inference framework is developed, yielding signal-agnostic and signal-specific cross section limits and thereby completing the statistical machinery needed for future AD analyses built on HAXAD. The set of investigated signal models is also significantly expanded, allowing for the evaluation of sensitivity on a much broader phase space. Improvements to the method increase signal sensitivity with respect to the original method, and when benchmarked against an example cut-based search on the same final state, HAXAD matches or exceeds the best individual cut-based limits for a wide variety of considered signal models. These developments strengthen the case for HAXAD as a viable and compelling AD-based search strategy with novel discovery potential at colliders.",
       links: { pdf: "https://arxiv.org/pdf/2607.19323", external: "https://arxiv.org/abs/2607.19323" },
-      project: "",
+      project: "anomaly_detection",
     },
     {
       slug: "DRO_FE_ML",
@@ -256,7 +256,7 @@ window.SITE = {
       summary: "ML-based waveform decomposition enables real-time Cherenkov/scintillation separation in dual-readout crystal calorimeters with reduced sampling requirements and FPGA-compatible latency.",
       abstract: "Dual-readout calorimeters achieve superior energy resolution by simultaneously measuring Cherenkov and scintillation signals for event-by-event electromagnetic fraction correction, making them attractive for next-generation Higgs factories. However, full waveform readout required for time-based signal separation presents significant off-detector data rate challenges. We present a systematic comparison of machine learning and template fitting approaches for separating scintillation and Cherenkov light components in homogeneous dual-readout calorimeters across three representative crystal types. ML models achieve comparable signal extraction performance at lower sampling rates than template fitting, with a single model trained over a range of incident particle energies demonstrating robust performance. FPGA-compatible compression achieves latencies suitable for real-time application. This work establishes both baseline template fitting performance and ML-enhanced alternatives for crystal-based dual-readout calorimeters, offering practical pathways towards front-end feature extraction that mitigates data rate challenges in future detector designs for high-luminosity collider environments.",
       links: { pdf: "https://arxiv.org/pdf/2604.26090", external: "https://arxiv.org/abs/2604.26090" },
-      project: "On-chip-ml",
+      project: ["On-chip-ml", "FCC_calo"],
       body: `This work addresses critical data rate challenges in dual-readout calorimeters for future collider experiments by demonstrating machine learning approaches that enable real-time waveform decomposition in front-end electronics. Through systematic comparison across three crystal types, we show that ML models match template fitting performance while operating at reduced sampling rates, enabling practical implementation in FPGA firmware. The demonstrated energy-robust training and low-latency inference establish a viable pathway for front-end feature extraction, significantly reducing off-detector bandwidth requirements while maintaining the superior energy resolution characteristics that make dual-readout technology attractive for precision measurements at facilities such as FCC-ee.`,
     },
     {
@@ -273,7 +273,7 @@ window.SITE = {
       summary: "First demonstration of agentic-AI driven detector optimization using vertically-integrated bilevel framework for dual-readout calorimeters.",
       abstract: "We present the first implementation of AI agents into the design and optimization of detectors in high-energy physics experiments via a bi-level optimization framework that vertically integrates detector geometry, front-end digitization, and high-level reconstruction algorithm parameters in differentiable full simulations. Using the example of a dual-readout, segmented crystal EM calorimeter with a baseline resolution of 3%/√E, we investigate the capabilities and value propositions of AI agents in the identification and reduction of key detector parameters and in the nonlinear traversal of design space. We find that frontier LLM reasoning-models today, without being given additional experiment-specific context, are able to effectively execute complex workflows and proactively suggest generic but relevant avenues for further study or improvement. Here, we demonstrate an AI agent's ability to find an optimal design point amidst three competing performance criteria, showing that effective integration of agents into the complex workflows of frontier research areas can yield higher performance for key physics goals while reducing labor and compute. This study establishes the foundation for a future demonstration of the first fully AI-designed detector for future scientific facilities.",
       links: { pdf: "https://arxiv.org/pdf/2604.21804", external: "https://arxiv.org/abs/2604.21804" },
-      project: "",
+      project: "FCC_calo",
     },
     {
       slug: "EdgeML_DCH",
@@ -305,7 +305,7 @@ window.SITE = {
       summary: "We present a simple formula for the resolution of a dual readout calorimeter, verified with a toy simulation and full simulation results — helping newcomers understand its strengths and limitations.",
       abstract: "Dual readout calorimeters allow state-of-the-art resolutions for hadronic energy measurements. Their various incarnations are leading candidates for the calorimeter systems for future colliders. In this paper, we present a simple formula for the resolution of a dual readout calorimeter, which we verify with a toy simulation and with full simulation results. This formula can help those new to dual readout calorimetry understand its strengths and limitations. The paper also highlights that the dual readout correction works not just to compensate for binding energy loss, but also for energies escaping the calorimeter or clustering algorithm. Formulae are also presented for approximate resolutions and energy scales in terms of different sources of response.",
       links: { doi: "10.1016/j.nima.2025.171080" },
-      project: "",
+      project: "FCC_calo",
     },
     {
       slug: "Geant4_sim_of_DRO",
@@ -321,7 +321,7 @@ window.SITE = {
       summary: "Our simulations demonstrate the effect of inclusion of Cherenkov light in the reconstruction of energies for sampling and homogeneous calorimeters.",
       abstract: "Calorimeters with dual readout measure both scintillation and Cherenkov light produced in their active media. They offer improvements in energy resolution and, therefore, have become increasingly interesting due to the need for precision jet measurements at Higgs factories. This paper presents GEANT4 simulations of single-particle responses in sampling and homogeneous calorimeters, and demonstrates the effect of inclusion of Cherenkov light in the reconstruction of energies.",
       links: { doi: "10.1016/j.nima.2025.170200" },
-      project: "",
+      project: "FCC_calo",
     },
     {
       slug: "radic",
@@ -358,13 +358,26 @@ window.SITE = {
   ],
 
   /* -------------------------------------------------------------- projects */
+  // Projects page lists one section per group, in this order; within a group,
+  // projects appear in the order they are written below.
+  // Publications/talks link here via `project: "<slug>"` (or an array of slugs);
+  // each project page lists its linked publications and talks automatically.
+  projectGroups: [
+    "Electronics & Hardware",
+    "AI/ML for HEP",
+    "ATLAS at the HL-LHC",
+    "Future Colliders",
+    "Theory & Phenomenology",
+  ],
+
   projects: [
     {
       slug: "On-chip-ml",
+      group: "Electronics & Hardware",
       title: "eFPGA Technology",
       summary: "Machine Learning At-source",
       date: "2025-10-10",
-      tags: ["Detector R&D", "Machine Learning"],
+      tags: ["Microelectronics", "Detector R&D", "Machine Learning"],
       image: "assets/content/On-chip-ml.png",
       body: `
         <h2>Overall Goals</h2>
@@ -382,47 +395,87 @@ window.SITE = {
     },
     {
       slug: "HEP_foundation",
+      group: "AI/ML for HEP",
       title: "Foundation Model for HEP",
       summary: "Unsupervised Backbone Model",
       date: "2025-07-11",
-      tags: ["Machine Learning"],
+      tags: ["Machine Learning", "Foundation Model"],
       image: "assets/content/HEP_foundation.png",
       body: `
-        <p><strong>How to train a foundation model for high-energy physics that can provide benefit in various downstream applications?</strong></p>`,
+        <p><strong>How to train a foundation model for high-energy physics that can provide benefit in various downstream applications?</strong></p>
+        <h2>Lightweight Pre-training</h2>
+        <p>NEXUS: a ~3M-parameter autoencoder pre-trained without supervision on LHC track data, improving downstream collider tasks with few labels and transferring to other scientific domains.</p>
+        <h2>Foundation Models at the Edge</h2>
+        <p>Distilling large foundation models — Google Research's TimesFM and OmniLearned — into compact students that fit the latency and resource budgets of detector front-ends and triggers.</p>`,
     },
     {
-      slug: "GBCR",
-      title: "GBCR",
-      summary: "The GigaBit Cable Receiver (GBCR) ASIC",
+      slug: "anomaly_detection",
+      group: "AI/ML for HEP",
+      title: "Anomaly Detection in HEP Experiments",
+      summary: "Model-agnostic Searches for New Physics",
+      date: "2026-07-21",
+      tags: ["Machine Learning", "Anomaly Detection", "Higgs"],
+      image: "assets/content/HAXAD_anomaly.png",
+      body: `
+        <p><strong>How can we search for new physics without committing to a specific signal model in advance?</strong></p>
+        <h2>Higgs And X Anomaly Detection (HAXAD)</h2>
+        <p>The Higgs boson, with its universal coupling to mass, is a natural anchor for anomaly detection at colliders. HAXAD searches for anomalies produced in association with a Higgs boson by combining ML-based feature embedding, background estimation, and weakly supervised classification, together with an inference framework that yields signal-agnostic and signal-specific cross-section limits.</p>`,
+    },
+    {
+      slug: "ITk_upgrade",
+      group: "ATLAS at the HL-LHC",
+      title: "ATLAS ITk Upgrade",
+      summary: "Data Transmission for the ITk Pixel System",
       date: "2025-03-31",
       tags: ["LHC Upgrade"],
       image: "assets/content/GBCR.png",
       body: `
-        <h2>Introduction</h2>
+        <p><strong>Testing the data-transmission chain of the ATLAS Inner Tracker (ITk) Pixel system for the HL-LHC.</strong></p>
+        <figure><img src="assets/content/GBCR-itk.png" alt="ATLAS ITK readout system"><figcaption>ATLAS ITk readout system</figcaption></figure>
+        <h2>GBCR ASIC QC Testing</h2>
         <p><strong>The GigaBit Cable Receiver (GBCR) ASIC is designed as an equalizer chip to compensate the ITk pixel data transmission loss in the high frequency range after the twinax Type-1 data E-links at 1.28 Gb/s.</strong></p>
         <p><strong>There are ~4500 GBCR chips in the ITk Pixel system.</strong></p>
-        <figure><img src="assets/content/GBCR-itk.png" alt="ATLAS ITK readout system"><figcaption>ATLAS ITk readout system</figcaption></figure>
         <p>The TWiki page for GBCR: <a href="https://twiki.cern.ch/twiki/bin/viewauth/Atlas/GBCR">GBCR</a></p>
         <p>The software link: <a href="https://gitlab.cern.ch/rce/gbcr_qc">rce/gbcr_qc</a></p>
         <p>The GBCR Testing Github: <a href="https://github.com/OSU-HEP-HDL/GBCR-Testing">GBCR-Testing</a></p>
-        <h2>Performed QC Tests</h2>
+        <h3>Performed QC Tests</h3>
         <ol>
           <li>EQ Amplitude Factors Test</li>
           <li>Disable RX Channel Function Test</li>
           <li>Retiming Mode Function Test</li>
           <li>Retiming Mode &amp; Voted Mode Correlation Test</li>
           <li>RX 5 Channel Retiming Mode Test</li>
-        </ol>`,
+        </ol>
+        <h2>Chain-test Interlock</h2>
+        <p>A data-transmission chain test for the ITk Pixel system at SLAC.</p>`,
     },
     {
-      slug: "5D_calo",
-      title: "5D Calorimetry",
-      summary: "5D Calorimetry R&D",
+      slug: "Vertex_t0",
+      group: "ATLAS at the HL-LHC",
+      title: "Vertex T0 Timing",
+      summary: "Reconstructing Timing Information Using LAr Calorimeter",
       date: "2025-03-28",
-      tags: ["Detector R&D"],
+      tags: ["LHC Upgrade"],
+      image: "assets/content/Vertex_t0.jpg",
+      body: `
+        <p><strong>How to better utilize the timing capabilities of Liquid Argon (LAr) Calorimeter in ATLAS?</strong></p>
+        <p>Our goal is to incorporate time information, as captured through the LAr and Tile calorimeters, combined with track measurements for precise vertex t0 reconstruction as a novel feature within the ATLAS experiment framework — a step toward 5D calorimetry (x, y, z, t, E) at the HL-LHC.</p>
+        <h2>Current Status</h2>
+        <p><strong>Current ATLAS LAr Calorimeter has good timing resolution of O(100 ps) or better at best cells. (HGTD can reach ~30 ps)</strong></p>
+        <p><strong>Can we use LAr cells to achieve O(100 ps) resolution for complex objects?</strong></p>
+        <p>Github Link: <a href="https://github.com/Liangyu5wu/Vertex0">Data processing</a></p>
+        <figure><img src="assets/content/Vertex_t0-lar.png" alt="ATLAS LAr Calorimeter"><figcaption>ATLAS LAr Calorimeter</figcaption></figure>`,
+    },
+    {
+      slug: "FCC_calo",
+      group: "Future Colliders",
+      title: "Calorimetry at the FCC",
+      summary: "Dual-readout, Timing & Particle Flow for FCC-ee",
+      date: "2025-03-28",
+      tags: ["Detector R&D", "Calorimetry"],
       image: "assets/content/5D_calo.png",
       body: `
-        <p><strong>In 5D calorimetry our goal is to incorporate time information, as captured through the LAr and Tile calorimeters, combined with track measurements for precise vertex t0 reconstruction as a novel feature within the ATLAS experiment framework.</strong></p>
+        <p><strong>Developing calorimeter technologies and reconstruction algorithms for the FCC-ee detector concepts.</strong></p>
         <h2>dSiPM Study for Future Detectors</h2>
         <p>Github Workspace: <a href="https://github.com/Liangyu5wu/DREAMSim">HG-DREAM G4 simulation: dream 2.06</a></p>
         <h3>Photon Occupancy Study</h3>
@@ -431,22 +484,21 @@ window.SITE = {
         <h3>Incident Angles Study</h3>
         <p>Explore how to maximally utilize the fibers in our calorimeter.</p>
         <h3>Energy Reconstruction &amp; Particle ID with ML</h3>
-        <p>Incorporating more timing information and shower structure information to further improve the energy resolution in the calorimeter.</p>`,
+        <p>Incorporating more timing information and shower structure information to further improve the energy resolution in the calorimeter.</p>
+        <h2>Particle Flow</h2>
+        <p>Developing particle-flow reconstruction algorithms for the IDEA and CLD detector concepts, studying both Pandora-based and ML-based approaches.</p>`,
     },
     {
-      slug: "Vertex_t0",
-      title: "Vertex T0 Timing",
-      summary: "Reconstructing Timing Information Using LAr Calorimeter",
-      date: "2025-03-28",
-      tags: ["LHC Upgrade"],
-      image: "assets/content/Vertex_t0.jpg",
+      slug: "Higgs_sector",
+      group: "Theory & Phenomenology",
+      title: "Higgs Sector Exploration",
+      summary: "What Does the Higgs Sector Really Look Like?",
+      date: "2026-10-01",
+      tags: ["Higgs", "Phenomenology"],
+      image: "assets/content/Higgs_sector.png",
       body: `
-        <p><strong>How to better utilize the timing capabilities of Liquid Argon (LAr) Calorimeter in ATLAS?</strong></p>
-        <h2>Current Status</h2>
-        <p><strong>Current ATLAS LAr Calorimeter has good timing resolution of O(100 ps) or better at best cells. (HGTD can reach ~30 ps)</strong></p>
-        <p><strong>Can we use LAr cells to achieve O(100 ps) resolution for complex objects?</strong></p>
-        <p>Github Link: <a href="https://github.com/Liangyu5wu/Vertex0">Data processing</a></p>
-        <figure><img src="assets/content/Vertex_t0-lar.png" alt="ATLAS LAr Calorimeter"><figcaption>ATLAS LAr Calorimeter</figcaption></figure>`,
+        <p><strong>Is the observed Higgs boson the whole story, and do its Yukawa couplings truly follow the Standard Model pattern?</strong></p>
+        <p>An experiment-independent phenomenology study of the physics of the Higgs sector and the true nature of the Yukawa couplings.</p>`,
     },
   ],
 
@@ -463,7 +515,7 @@ window.SITE = {
       summary: "Data Transmission Tests",
       image: "assets/content/talk-2026_03_26_itk_Week.png",
       abstract: "This 15-minute talk presents recent QC test status and results from the GBCR3 conducted recently across SLAC and SMU.",
-      project: "GBCR",
+      project: "ITk_upgrade",
     },
     {
       slug: "2025_12_12_ATLAS_Timing_Ws",
@@ -489,7 +541,7 @@ window.SITE = {
       summary: "GBCR QC Tests",
       image: "assets/content/talk-2025_12_03_US_ITk_week.png",
       abstract: "This 15-minute talk presents some QC test results from the GBCR3 conducted recently in the SLAC EPP lab.",
-      project: "GBCR",
+      project: "ITk_upgrade",
     },
     {
       slug: "2025_10_08_CPAD_DCH",
@@ -515,7 +567,7 @@ window.SITE = {
       summary: "dSiPM R&D",
       image: "assets/content/talk-2025_10_08_CPAD_dSiPM.jpg",
       abstract: "Calorimeters play a central role in high-energy physics experiments by enabling precise energy measurements and providing critical information for particle identification and event reconstruction. Advances in calorimeter technology are essential to meet the increasingly demanding requirements of future collider experiments, such as the FCC and muon collider, as well as non-collider experiments in neutrino physics, dark matter searches, and astrophysical observations. One of the critical elements in calorimetry is photon detection. We investigate the performance potential of digital silicon photomultipliers (dSiPMs) for high-granularity dual-readout calorimetry, with a focus on timing resolution and photon-counting capabilities. Using detailed simulations, we develop optimized dSiPM specifications tailored for use in fiber calorimeters. These results inform design choices for future detector modules aimed at achieving enhanced time resolution, dynamic range, and reconstruction accuracy.",
-      project: "5D_calo",
+      project: "FCC_calo",
     },
     {
       slug: "2025_07_23_US_ATLAS",
@@ -542,7 +594,7 @@ window.SITE = {
       image: "assets/content/talk-2025_05_14_itk_Week.jpg",
       abstract: "This 15-minute talk presents some test results from the GBCR3 conducted recently in the SLAC EPP lab, especially some retiming mode function tests.",
       slidesUrl: "uploads/GBCR_ITKweek_0514.pdf",
-      project: "GBCR",
+      project: "ITk_upgrade",
     },
     {
       slug: "2025_03_US_ITk_Ws",
@@ -556,7 +608,7 @@ window.SITE = {
       image: "assets/content/talk-2025_03_US_ITk_Ws.jpg",
       abstract: "This 15-minute talk presents some test results from the GBCR3 conducted recently in the SLAC EPP lab, and discusses several potential bugs that may require attention.",
       slidesUrl: "uploads/GBCR_ITK_workshop.pdf",
-      project: "GBCR",
+      project: "ITk_upgrade",
     },
   ],
 

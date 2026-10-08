@@ -333,10 +333,15 @@
       '<div class="grid grid-2">' + S.publications.slice().sort(byDateDesc).map(pubCard).join("") + "</div>",
       S.backgrounds.publications);
   }
+  /* projects are listed by research direction, in data order within each group */
   function renderProjList() {
-    listPage("Projects", "All Projects",
-      '<div class="grid grid-3">' + S.projects.slice().sort(byDateDesc).map(projectCard).join("") + "</div>",
-      S.backgrounds.projects || S.backgrounds.research);
+    var body = S.projectGroups.map(function (g) {
+      var projs = S.projects.filter(function (p) { return p.group === g; });
+      if (!projs.length) return "";
+      return '<h3 class="tag-group-head">' + esc(g) + "</h3>" +
+        '<div class="grid grid-3">' + projs.map(projectCard).join("") + "</div>";
+    }).join("");
+    listPage("Projects", "All Projects", body, S.backgrounds.projects || S.backgrounds.research);
   }
   function renderTalkList() {
     listPage("Talks", "All Talks & Presentations",
@@ -389,14 +394,12 @@
 
   function renderPubDetail(slug) {
     var p = find(S.publications, slug); if (!p) return notFound();
-    var proj = p.project ? find(S.projects, p.project) : null;
     var inner = '<div class="detail-head">' + chips(p.tags, p.type) +
       "<h1>" + esc(p.title) + "</h1>" +
       '<div class="detail-meta">' + authorsHtml(p.authors) + "</div>" +
       '<div class="detail-meta" style="color:var(--text-faint)">' + esc(p.venue) + " · " + fmtDate(p.date) + "</div>" +
       "</div>" +
-      '<div class="detail-links">' + linkPills(p.links) +
-        (proj ? '<a class="pill-link" href="#/project/' + proj.slug + '">Related project: ' + esc(proj.title) + "</a>" : "") + "</div>" +
+      '<div class="detail-links">' + linkPills(p.links) + relatedProjPills(p) + "</div>" +
       (p.image ? '<figure class="detail-figure"><img src="' + p.image + '" alt="">' + (p.caption ? "<figcaption>" + esc(p.caption) + "</figcaption>" : "") + "</figure>" : "") +
       '<div class="abstract-box"><h3>Abstract</h3>' + esc(p.abstract) + "</div>" +
       (p.body ? '<div class="article-body"><p>' + p.body + "</p></div>" : "");
@@ -404,24 +407,27 @@
   }
 
   function renderProjDetail(slug) {
-    var p = find(S.projects, slug); if (!p) return notFound();
+    var p = find(S.projects, PROJECT_ALIASES[slug] || slug); if (!p) return notFound();
+    function linked(o) { return projectsOf(o).indexOf(p) >= 0; }
+    var pubs  = S.publications.filter(linked).sort(byDateDesc);
+    var talks = S.talks.filter(linked).sort(byDateDesc);
     var inner = '<div class="detail-head">' + chips(p.tags) +
       "<h1>" + esc(p.title) + "</h1>" +
       '<div class="detail-meta" style="color:var(--text-faint)">' + esc(p.summary) + "</div></div>" +
       (p.image ? '<figure class="detail-figure"><img src="' + p.image + '" alt=""></figure>' : "") +
-      '<div class="article-body">' + p.body + "</div>";
+      '<div class="article-body">' + p.body + "</div>" +
+      (pubs.length ? '<h3 class="tag-group-head">Related Publications</h3><div class="grid grid-2">' + pubs.map(pubCard).join("") + "</div>" : "") +
+      (talks.length ? '<h3 class="tag-group-head">Related Talks</h3>' + talks.map(talkRow).join("") : "");
     detailShell("#/projects", "All projects", inner);
   }
 
   function renderTalkDetail(slug) {
     var t = find(S.talks, slug); if (!t) return notFound();
-    var proj = t.project ? find(S.projects, t.project) : null;
     var inner = '<div class="detail-head">' + chips([], t.summary) +
       "<h1>" + esc(t.title) + "</h1>" +
       '<div class="detail-meta"><a href="' + t.eventUrl + '" target="_blank" rel="noopener">' + esc(t.event) + "</a></div>" +
       '<div class="detail-meta" style="color:var(--text-faint)">' + esc(t.location) + " · " + fmtDate(t.date) + "</div></div>" +
-      '<div class="detail-links">' + linkPills(null, t.slidesUrl) +
-        (proj ? '<a class="pill-link" href="#/project/' + proj.slug + '">Related project: ' + esc(proj.title) + "</a>" : "") + "</div>" +
+      '<div class="detail-links">' + linkPills(null, t.slidesUrl) + relatedProjPills(t) + "</div>" +
       (t.image ? '<figure class="detail-figure"><img src="' + t.image + '" alt=""></figure>' : "") +
       '<div class="abstract-box"><h3>Abstract</h3>' + esc(t.abstract) + "</div>";
     detailShell("#/talks", "All talks", inner);
@@ -448,6 +454,20 @@
   }
 
   function find(arr, slug) { for (var i=0;i<arr.length;i++) if (arr[i].slug===slug) return arr[i]; return null; }
+
+  /* old project slugs that were merged/renamed, so previously shared links keep working */
+  var PROJECT_ALIASES = { "GBCR": "ITk_upgrade", "5D_calo": "FCC_calo" };
+
+  /* a publication/talk's `project` may be a single slug or an array of slugs */
+  function projectsOf(o) {
+    var slugs = !o.project ? [] : Array.isArray(o.project) ? o.project : [o.project];
+    return slugs.map(function (s) { return find(S.projects, s); }).filter(Boolean);
+  }
+  function relatedProjPills(o) {
+    return projectsOf(o).map(function (proj) {
+      return '<a class="pill-link" href="#/project/' + proj.slug + '">Related project: ' + esc(proj.title) + "</a>";
+    }).join("");
+  }
   function notFound() {
     detailShell("#/", "Home", '<div class="detail-head"><h1>Not found</h1><p>This page doesn\'t exist.</p></div>');
   }
