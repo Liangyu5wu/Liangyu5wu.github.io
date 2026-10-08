@@ -319,11 +319,12 @@
   }
 
   /* ============================================================= LIST PAGES */
+  /* title may be an array of lines */
   function listPage(kicker, title, itemsHtml, bg, sub) {
     var attrs = bg ? ' bg-section" data-bg="' + bg : "";
     app.innerHTML = '<div class="page' + attrs + '"><div class="container">' +
       '<a class="back-link" href="#/">' + ICONS.back + "Home</a>" +
-      '<div class="section-head"><span class="kicker">' + esc(kicker) + '</span><h2>' + esc(title) + "</h2>" +
+      '<div class="section-head"><span class="kicker">' + esc(kicker) + '</span><h2>' + [].concat(title).map(esc).join("<br>") + "</h2>" +
       (sub ? "<p>" + esc(sub) + "</p>" : "") + "</div>" +
       itemsHtml + "</div></div>";
     afterRender(false);
@@ -342,7 +343,7 @@
       return '<h3 class="tag-group-head proj-group-head">' + esc(g) + "</h3>" +
         '<div class="grid grid-3">' + projs.map(projectCard).join("") + "</div>";
     }).join("");
-    listPage("Projects", "Smarter Detectors & Algorithms for Particle Physics, Now and Next",
+    listPage("Projects", ["Smarter Detectors & Algorithms for Particle Physics", "Now and Next"],
       body, S.backgrounds.projects || S.backgrounds.research);
   }
   function renderTalkList() {

@@ -492,13 +492,14 @@ window.SITE = {
       summary: "Pandora-based & ML-based Reconstruction for IDEA and CLD",
       date: "2026-10-01",
       tags: ["Detector R&D", "Machine Learning"],
-      image: "",
+      image: "assets/content/particle_flow.png",
       body: `
         <p><strong>Reconstructing every particle in the event by combining tracker and calorimeter information, for the FCC-ee detector concepts.</strong></p>
         <h2>IDEA &amp; CLD</h2>
         <p>Developing particle-flow reconstruction algorithms for the IDEA and CLD detector concepts.</p>
         <h2>Pandora-based vs. ML-based</h2>
-        <p>Studying both the established Pandora-based approach and ML-based particle flow.</p>`,
+        <p>Studying both the established Pandora-based approach and ML-based particle flow.</p>
+        <figure><img src="assets/content/particle_flow-event_display.png" alt="CLD event display: truth, Pandora, and HitPF"><figcaption>FCC-ee CLD full simulation, Z → uds: truth vs. Pandora vs. HitPF reconstruction</figcaption></figure>`,
     },
     {
       slug: "Higgs_sector",
