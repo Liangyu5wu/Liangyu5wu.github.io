@@ -365,9 +365,9 @@ window.SITE = {
   // each project page lists its linked publications and talks automatically.
   projectGroups: [
     { name: "Future Colliders",                       logo: "assets/media/icons/brands/FCC_logo.png" },
-    { name: "AI/ML, from Chips to Foundation Models", logo: "assets/media/icons/brands/NEXUS_logo.png" },
     { name: "ATLAS at the HL-LHC",                    logo: ["assets/media/icons/brands/ATLAS_logo.png",
                                                              "assets/media/icons/brands/HL-LHC_logo.png"] },
+    { name: "AI/ML, from Chips to Foundation Models", logo: "assets/media/icons/brands/NEXUS_logo.png" },
     { name: "Theory & Phenomenology",                 logo: "" },
   ],
 
