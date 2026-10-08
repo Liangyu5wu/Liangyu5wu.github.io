@@ -15,7 +15,7 @@ window.SITE = {
       { name: "Stanford University · Physics Department", url: "https://physics.stanford.edu" },
       { name: "SLAC National Accelerator Laboratory · FPD Collider Physics", url: "https://atlas.slac.stanford.edu" },
     ],
-    avatar: "assets/media/avatar.jpg",
+    avatar: "assets/media/avatar_feynman.jpg",
     tagline: "Hunting in the Invisible World",
     interests: [
       "Future Colliders",
