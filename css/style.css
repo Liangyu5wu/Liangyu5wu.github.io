@@ -591,7 +591,12 @@ a.chip-link:hover { background: var(--accent); color: #fff; }
 }
 .tag-group-head:first-child { margin-top: 8px; }
 /* larger section headings on the Projects page */
-.proj-group-head { font-size: 1rem; margin-top: 44px; }
+.proj-group-head {
+  font-family: "Fraunces", Georgia, "Times New Roman", serif;
+  font-size: 1.6rem; font-weight: 600; letter-spacing: .005em; text-transform: none;
+  color: var(--text); margin-top: 48px; padding-bottom: 10px;
+  padding-left: 16px; border-left: 4px solid var(--accent-2);
+}
 /* group logos sit in a left column beside the cards (a row above them on narrow screens);
    white chip keeps dark and light logos legible on either theme */
 .proj-group { display: grid; grid-template-columns: 190px 1fr; gap: 24px; align-items: start; }
