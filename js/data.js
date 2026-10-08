@@ -364,7 +364,7 @@ window.SITE = {
   // each project page lists its linked publications and talks automatically.
   projectGroups: [
     "Future Colliders",
-    "Machine Learning, from Chips to Foundation Models",
+    "AI/ML, from Chips to Foundation Models",
     "ATLAS at the HL-LHC",
     "Theory & Phenomenology",
   ],
@@ -372,7 +372,7 @@ window.SITE = {
   projects: [
     {
       slug: "On-chip-ml",
-      group: "Machine Learning, from Chips to Foundation Models",
+      group: "AI/ML, from Chips to Foundation Models",
       title: "eFPGA Technology",
       summary: "Machine Learning At-source",
       date: "2025-10-10",
@@ -394,7 +394,7 @@ window.SITE = {
     },
     {
       slug: "HEP_foundation",
-      group: "Machine Learning, from Chips to Foundation Models",
+      group: "AI/ML, from Chips to Foundation Models",
       title: "Foundation Model for HEP",
       summary: "Unsupervised Backbone Model",
       date: "2025-07-11",
@@ -409,7 +409,7 @@ window.SITE = {
     },
     {
       slug: "anomaly_detection",
-      group: "Machine Learning, from Chips to Foundation Models",
+      group: "AI/ML, from Chips to Foundation Models",
       title: "Anomaly Detection in HEP Experiments",
       summary: "Model-agnostic Searches for New Physics",
       date: "2026-07-21",
@@ -469,7 +469,7 @@ window.SITE = {
       slug: "FCC_calo",
       group: "Future Colliders",
       title: "Calorimetry at the FCC",
-      summary: "Dual-readout, Timing & Particle Flow for FCC-ee",
+      summary: "Dual-readout & Timing for FCC-ee",
       date: "2025-03-28",
       tags: ["Detector R&D", "Calorimetry"],
       image: "assets/content/5D_calo.png",
@@ -483,9 +483,22 @@ window.SITE = {
         <h3>Incident Angles Study</h3>
         <p>Explore how to maximally utilize the fibers in our calorimeter.</p>
         <h3>Energy Reconstruction &amp; Particle ID with ML</h3>
-        <p>Incorporating more timing information and shower structure information to further improve the energy resolution in the calorimeter.</p>
-        <h2>Particle Flow</h2>
-        <p>Developing particle-flow reconstruction algorithms for the IDEA and CLD detector concepts, studying both Pandora-based and ML-based approaches.</p>`,
+        <p>Incorporating more timing information and shower structure information to further improve the energy resolution in the calorimeter.</p>`,
+    },
+    {
+      slug: "particle_flow",
+      group: "Future Colliders",
+      title: "Particle Flow at the FCC",
+      summary: "Pandora-based & ML-based Reconstruction for IDEA and CLD",
+      date: "2026-10-01",
+      tags: ["Detector R&D", "Machine Learning"],
+      image: "",
+      body: `
+        <p><strong>Reconstructing every particle in the event by combining tracker and calorimeter information, for the FCC-ee detector concepts.</strong></p>
+        <h2>IDEA &amp; CLD</h2>
+        <p>Developing particle-flow reconstruction algorithms for the IDEA and CLD detector concepts.</p>
+        <h2>Pandora-based vs. ML-based</h2>
+        <p>Studying both the established Pandora-based approach and ML-based particle flow.</p>`,
     },
     {
       slug: "Higgs_sector",
