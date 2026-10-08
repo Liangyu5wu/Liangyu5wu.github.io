@@ -359,14 +359,16 @@ window.SITE = {
 
   /* -------------------------------------------------------------- projects */
   // Projects page lists one section per group, in this order; within a group,
-  // projects appear in the order they are written below.
+  // projects appear in the order they are written below. A group's optional
+  // `logo` (one path or an array) is shown at the start of its section heading.
   // Publications/talks link here via `project: "<slug>"` (or an array of slugs);
   // each project page lists its linked publications and talks automatically.
   projectGroups: [
-    "Future Colliders",
-    "AI/ML, from Chips to Foundation Models",
-    "ATLAS at the HL-LHC",
-    "Theory & Phenomenology",
+    { name: "Future Colliders",                       logo: "assets/media/icons/brands/FCC_logo.png" },
+    { name: "AI/ML, from Chips to Foundation Models", logo: "assets/media/icons/brands/NEXUS_logo.png" },
+    { name: "ATLAS at the HL-LHC",                    logo: ["assets/media/icons/brands/ATLAS_logo.png",
+                                                             "assets/media/icons/brands/HL-LHC_logo.png"] },
+    { name: "Theory & Phenomenology",                 logo: "" },
   ],
 
   projects: [

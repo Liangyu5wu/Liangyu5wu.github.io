@@ -338,9 +338,12 @@
   /* projects are listed by research direction, in data order within each group */
   function renderProjList() {
     var body = S.projectGroups.map(function (g) {
-      var projs = S.projects.filter(function (p) { return p.group === g; });
+      var projs = S.projects.filter(function (p) { return p.group === g.name; });
       if (!projs.length) return "";
-      return '<h3 class="tag-group-head proj-group-head">' + esc(g) + "</h3>" +
+      return '<h3 class="tag-group-head proj-group-head">' +
+        [].concat(g.logo || []).filter(Boolean).map(function (src) {
+          return '<img class="proj-group-logo" src="' + src + '" alt="">';
+        }).join("") + esc(g.name) + "</h3>" +
         '<div class="grid grid-3">' + projs.map(projectCard).join("") + "</div>";
     }).join("");
     listPage("Projects", ["Smarter Detectors & Algorithms for Particle Physics", "Now and Next"],

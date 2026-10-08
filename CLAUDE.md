@@ -48,8 +48,8 @@ uploads/          # PDFs (CV, slides, thesis)
 
 ### Projects
 
-- `projectGroups` sets the section order on the Projects page; each project has a `group`
-  that must match one of them. Within a group, projects appear in array order.
+- `projectGroups` (`{ name, logo }`) sets the section order on the Projects page; each
+  project's `group` must match a group `name`. `logo` is an optional image path (or array of paths). Within a group, projects appear in array order.
 - Publications and talks link to projects via `project: "<slug>"` or an array of slugs.
   Project detail pages list linked publications/talks automatically, and pub/talk pages show
   a "Related project" pill per linked project.

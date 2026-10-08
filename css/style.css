@@ -591,7 +591,9 @@ a.chip-link:hover { background: var(--accent); color: #fff; }
 }
 .tag-group-head:first-child { margin-top: 8px; }
 /* larger section headings on the Projects page */
-.proj-group-head { font-size: 1rem; margin-top: 44px; }
+.proj-group-head { font-size: 1rem; margin-top: 44px; display: flex; align-items: center; gap: 14px; }
+/* white chip keeps dark and light logos legible on either theme */
+.proj-group-logo { height: 44px; width: auto; padding: 4px 8px; border-radius: 6px; background: #fff; }
 
 .card-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
 .pill-link {
