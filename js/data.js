@@ -454,7 +454,7 @@ window.SITE = {
       slug: "Vertex_t0",
       group: "ATLAS at the HL-LHC",
       title: "Vertex T0 Timing",
-      summary: "Reconstructing Timing Information Using LAr Calorimeter",
+      summary: "Timing with the LAr Calorimeter",
       date: "2025-03-28",
       tags: ["LHC Upgrade"],
       image: "assets/content/Vertex_t0.jpg",
@@ -470,28 +470,43 @@ window.SITE = {
     {
       slug: "FCC_calo",
       group: "Future Colliders",
-      title: "Calorimetry at the FCC",
-      summary: "Dual-readout & Timing for FCC-ee",
+      title: "Advanced Calorimetry",
+      summary: "Dual-Readout & Timing Calorimeters",
       date: "2025-03-28",
       tags: ["Detector R&D", "Calorimetry"],
       image: "assets/content/5D_calo.png",
       body: `
-        <p><strong>Developing calorimeter technologies and reconstruction algorithms for the FCC-ee detector concepts.</strong></p>
-        <h2>dSiPM Study for Future Detectors</h2>
+        <p><strong>Developing calorimeter technologies and reconstruction algorithms for the detectors of next-generation Higgs factories such as the FCC-ee.</strong></p>
+        <h2>Dual-Readout Calorimetry</h2>
+        <p>Dual-readout calorimeters measure both scintillation and Cherenkov light in their active media, allowing an event-by-event correction of the electromagnetic fraction of hadronic showers. This gives state-of-the-art hadronic energy resolution and makes them leading candidates for the precision jet measurements required at a Higgs factory.</p>
+        <h3>Simulation &amp; Understanding the Resolution</h3>
+        <p>Using GEANT4 simulations of single-particle responses in both sampling and homogeneous calorimeters, we show how including Cherenkov light improves energy reconstruction
+          (<a href="#/publication/Geant4_sim_of_DRO">NIM A, 2025</a>).
+          We also derive a simple formula for the resolution of a dual-readout calorimeter, validated with toy and full simulations. It shows that the dual-readout correction compensates not only for nuclear binding-energy losses, but also for energy escaping the calorimeter or the clustering algorithm
+          (<a href="#/publication/ontheres_of_DRO">NIM A, 2025</a>).</p>
+        <h3>Real-Time Waveform Decomposition</h3>
+        <p>Separating the Cherenkov and scintillation components by their timing requires full waveform readout, which creates a serious off-detector data-rate challenge. Across three crystal types, ML models match template fitting at lower sampling rates, and FPGA-compatible compression reaches latencies suitable for real-time front-end feature extraction
+          (<a href="#/publication/DRO_FE_ML">arXiv:2604.26090</a>; see also <a href="#/project/On-chip-ml">eFPGA Technology</a>).</p>
+        <h3>AI-Driven Detector Design</h3>
+        <p>For a segmented dual-readout crystal EM calorimeter, a bi-level optimization framework in differentiable full simulation jointly tunes the detector geometry, front-end digitization and reconstruction parameters. Frontier LLM agents drive the workflow and find an optimal design point among three competing performance criteria. This is a first step toward a fully AI-designed detector
+          (<a href="#/publication/det_opt_agentic">arXiv:2604.21804</a>).</p>
+        <h2>dSiPM Study</h2>
+        <p>Photon detection is a critical element of any calorimeter. We use detailed simulations to study how digital silicon photomultipliers (dSiPMs) can perform in high-granularity dual-readout fiber calorimeters, focusing on their timing resolution and photon-counting capabilities, and to develop optimized dSiPM specifications for future detector modules
+          (<a href="#/talk/2025_10_08_CPAD_dSiPM">CPAD 2025</a>).</p>
         <p>Github Workspace: <a href="https://github.com/Liangyu5wu/DREAMSim">HG-DREAM G4 simulation: dream 2.06</a></p>
-        <h3>Photon Occupancy Study</h3>
-        <p>Explore the photon occupancy for different segmentations of the dSiPMs.</p>
+        <h3>Photon Occupancy</h3>
+        <p>Photon occupancy for different dSiPM segmentations, which sets the required dynamic range and pixel granularity.</p>
         <figure><img src="assets/content/5D_calo-photon.png" alt="Photon distribution display"><figcaption>Photon distribution display in the Cherenkov fiber</figcaption></figure>
-        <h3>Incident Angles Study</h3>
-        <p>Explore how to maximally utilize the fibers in our calorimeter.</p>
+        <h3>Incident Angles</h3>
+        <p>How the incident angle of the particle affects light collection, and how to make the most of the fibers in the calorimeter.</p>
         <h3>Energy Reconstruction &amp; Particle ID with ML</h3>
-        <p>Incorporating more timing information and shower structure information to further improve the energy resolution in the calorimeter.</p>`,
+        <p>Using the timing and shower-structure information that dSiPMs provide to further improve energy resolution and particle identification.</p>`,
     },
     {
       slug: "particle_flow",
       group: "Future Colliders",
       title: "Particle Flow at the FCC",
-      summary: "Pandora-based & ML-based Reconstruction for IDEA and CLD",
+      summary: "Pandora & MLPF Reconstruction",
       date: "2026-10-01",
       tags: ["Detector R&D", "Machine Learning"],
       image: "assets/content/particle_flow.png",

@@ -597,6 +597,8 @@ a.chip-link:hover { background: var(--accent); color: #fff; }
   color: var(--text); margin-top: 48px; padding-bottom: 10px;
   padding-left: 16px; border-left: 4px solid var(--accent-2);
 }
+/* Projects page runs wider so cards keep a comfortable width beside the logo column */
+.page:has(.proj-group) .container { max-width: 1290px; }
 /* group logos sit in a left column beside the cards (a row above them on narrow screens);
    white chip keeps dark and light logos legible on either theme */
 .proj-group { display: grid; grid-template-columns: 190px 1fr; gap: 24px; align-items: start; }
